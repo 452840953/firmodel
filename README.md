@@ -2120,6 +2120,7 @@ import matplotlib.pyplot as plt
 import joblib
 import os
 import json
+import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, r2_score
 
@@ -2155,6 +2156,9 @@ target_columns = [
 # 结果列表
 results = []
 
+# 颜色列表，分配给5个模型的不同颜色
+model_colors = ['blue', 'green', 'orange', 'red', 'purple']
+
 # 循环遍历每个梯度和目标列
 plot_idx = 1
 for gradient in gradients:
@@ -2163,28 +2167,40 @@ for gradient in gradients:
         X_test, y_test = preprocess_data(test_data, target_column)
         X_test_scaled = StandardScaler().fit_transform(X_test)
 
-        # 加载对应的模型
-        rf_model_filename = f'rf_gradient_{int(gradient * 100)}_target_{target_column}_1.joblib'
-        xgb_model_filename = f'xgb_gradient_{int(gradient * 100)}_target_{target_column}_1.joblib'
-        svr_model_filename = f'svr_gradient_{int(gradient * 100)}_target_{target_column}_1.joblib'
+        # 循环加载5个模型，并进行预测
+        rf_predictions_all = []
+        xgb_predictions_all = []
+        svr_predictions_all = []
 
-        rf_model = joblib.load(os.path.join(model_save_dir, rf_model_filename))
-        xgb_model = joblib.load(os.path.join(model_save_dir, xgb_model_filename))
-        svr_model = joblib.load(os.path.join(model_save_dir, svr_model_filename))
+        # 加载并预测5个模型
+        for i in range(1, 6):
+            # 加载对应的模型
+            rf_model_filename = f'rf_gradient_{int(gradient * 100)}_target_{target_column}_{i}.joblib'
+            xgb_model_filename = f'xgb_gradient_{int(gradient * 100)}_target_{target_column}_{i}.joblib'
+            svr_model_filename = f'svr_gradient_{int(gradient * 100)}_target_{target_column}_{i}.joblib'
 
-        # 进行预测
-        rf_predictions = rf_model.predict(X_test_scaled)
-        xgb_predictions = xgb_model.predict(X_test_scaled)
-        svr_predictions = svr_model.predict(X_test_scaled)
+            rf_model = joblib.load(os.path.join(model_save_dir, rf_model_filename))
+            xgb_model = joblib.load(os.path.join(model_save_dir, xgb_model_filename))
+            svr_model = joblib.load(os.path.join(model_save_dir, svr_model_filename))
+
+            # 进行预测
+            rf_predictions_all.append(rf_model.predict(X_test_scaled))
+            xgb_predictions_all.append(xgb_model.predict(X_test_scaled))
+            svr_predictions_all.append(svr_model.predict(X_test_scaled))
+
+        # 将5个预测结果合并成一个数组
+        rf_predictions_all = np.array(rf_predictions_all).T
+        xgb_predictions_all = np.array(xgb_predictions_all).T
+        svr_predictions_all = np.array(svr_predictions_all).T
 
         # 计算 RMSE 和 R²
-        rf_rmse = mean_squared_error(y_test, rf_predictions, squared=False)
-        xgb_rmse = mean_squared_error(y_test, xgb_predictions, squared=False)
-        svr_rmse = mean_squared_error(y_test, svr_predictions, squared=False)
+        rf_rmse = mean_squared_error(y_test, rf_predictions_all.mean(axis=1), squared=False)
+        xgb_rmse = mean_squared_error(y_test, xgb_predictions_all.mean(axis=1), squared=False)
+        svr_rmse = mean_squared_error(y_test, svr_predictions_all.mean(axis=1), squared=False)
 
-        rf_r2 = r2_score(y_test, rf_predictions)
-        xgb_r2 = r2_score(y_test, xgb_predictions)
-        svr_r2 = r2_score(y_test, svr_predictions)
+        rf_r2 = r2_score(y_test, rf_predictions_all.mean(axis=1))
+        xgb_r2 = r2_score(y_test, xgb_predictions_all.mean(axis=1))
+        svr_r2 = r2_score(y_test, svr_predictions_all.mean(axis=1))
 
         # 将结果存储到结果列表
         results.append({
@@ -2202,27 +2218,33 @@ for gradient in gradients:
         # 每个梯度和目标列的3个模型放在同一行
         # Random Forest: 真实值 vs 预测值
         plt.subplot(num_plots // 3, 3, plot_idx)  # 确保每行有3个子图
-        plt.scatter(y_test, rf_predictions, color='blue')
-        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
+        for i, color in enumerate(model_colors):
+            plt.scatter(y_test, rf_predictions_all[:, i], color=color, label=f'Model {i+1}')
+        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='black', linestyle='--')
         plt.title(f'RF: Gradient {gradient}, Target {target_column}\nRMSE: {rf_rmse:.2f}, R²: {rf_r2:.2f}', fontsize=10)
         plt.xlabel('Actual')
         plt.ylabel('Predicted')
+        plt.legend()
 
         # XGBoost: 真实值 vs 预测值
         plt.subplot(num_plots // 3, 3, plot_idx + 1)  # 确保每行有3个子图
-        plt.scatter(y_test, xgb_predictions, color='green')
-        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
+        for i, color in enumerate(model_colors):
+            plt.scatter(y_test, xgb_predictions_all[:, i], color=color, label=f'Model {i+1}')
+        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='black', linestyle='--')
         plt.title(f'XGBoost: Gradient {gradient}, Target {target_column}\nRMSE: {xgb_rmse:.2f}, R²: {xgb_r2:.2f}', fontsize=10)
         plt.xlabel('Actual')
         plt.ylabel('Predicted')
+        plt.legend()
 
         # SVR: 真实值 vs 预测值
         plt.subplot(num_plots // 3, 3, plot_idx + 2)  # 确保每行有3个子图
-        plt.scatter(y_test, svr_predictions, color='orange')
-        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
+        for i, color in enumerate(model_colors):
+            plt.scatter(y_test, svr_predictions_all[:, i], color=color, label=f'Model {i+1}')
+        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='black', linestyle='--')
         plt.title(f'SVR: Gradient {gradient}, Target {target_column}\nRMSE: {svr_rmse:.2f}, R²: {svr_r2:.2f}', fontsize=10)
         plt.xlabel('Actual')
         plt.ylabel('Predicted')
+        plt.legend()
 
         plot_idx += 3  # 每次递增3，表示3个子图
 
