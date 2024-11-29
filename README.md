@@ -1652,6 +1652,817 @@ print(f"All results saved to {output_file}")
     Gradient 1.0, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 41), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 157)]), Best rmse 1331.664778066858, Best r2 0.5886363685148568
     Gradient 1.0, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.031351848157137034), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1273.5048126322304, Best r2 0.6208431687259014
     Gradient 1.0, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.6359458532338, Best r2 0.6040620187021858
+    Gradient 1.0, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 4), ('n_estimators', 200)]), Best rmse 1341.1366236688357, Best r2 0.58168600619503
+    Gradient 1.0, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.0411198170623466), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1287.6287739829345, Best r2 0.6092047416700551
+    Gradient 1.0, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.63583110506, Best r2 0.6040620099744122
+    Gradient 1.0, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 36), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 191)]), Best rmse 1339.4855380707982, Best r2 0.5817272398302065
+    Gradient 1.0, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.04903251730679932), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1246.7080038582008, Best r2 0.6331296727147431
+    Gradient 1.0, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.6360263621903, Best r2 0.6040620497606628
+    Gradient 1.0, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 43), ('min_samples_leaf', 4), ('min_samples_split', 8), ('n_estimators', 90)]), Best rmse 1340.574195276471, Best r2 0.5854406202507884
+    Gradient 1.0, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.049151776560023404), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1259.8380882030326, Best r2 0.62576695897949
+    Gradient 1.0, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.635931358213, Best r2 0.6040619879935217
+    Gradient 1.0, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 25), ('min_samples_leaf', 5), ('min_samples_split', 3), ('n_estimators', 85)]), Best rmse 1339.6658696830843, Best r2 0.5840363304003593
+    Gradient 1.0, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.05523629662292544), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1250.3508955953032, Best r2 0.6335857917373986
+    Gradient 1.0, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.6360249970262, Best r2 0.604062051686079
+    Starting training for Gradient 1.0, Target: Bending strength
+    Gradient 1.0, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 13), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 10.18623174168132, Best r2 0.5100832373121884
+    Gradient 1.0, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.061394855501668726), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 9.929211967666285, Best r2 0.5315152718409045
+    Gradient 1.0, Subset 1 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.781800755372371, Best r2 0.5621340338174105
+    Gradient 1.0, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 192)]), Best rmse 10.093257619341143, Best r2 0.5187377616144804
+    Gradient 1.0, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8190860916215267), ('learning_rate', 0.029789794762718744), ('max_depth', 4), ('n_estimators', 151), ('subsample', 0.7556417877004438)]), Best rmse 9.865277490282256, Best r2 0.5299291325169063
+    Gradient 1.0, Subset 2 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.78183440345428, Best r2 0.562131706388356
+    Gradient 1.0, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 29), ('min_samples_leaf', 1), ('min_samples_split', 6), ('n_estimators', 50)]), Best rmse 10.197906739323194, Best r2 0.5060336090166128
+    Gradient 1.0, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.025604904355380632), ('max_depth', 3), ('n_estimators', 181), ('subsample', 0.8878776026020312)]), Best rmse 9.874751905198142, Best r2 0.5321223878019044
+    Gradient 1.0, Subset 3 - SVR: Best Params OrderedDict([('C', 0.16903378558163304), ('epsilon', 0.0829269876312876), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.523711778571874, Best r2 0.5814410591830061
+    Gradient 1.0, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 8), ('n_estimators', 200)]), Best rmse 10.223847515002983, Best r2 0.502691754992187
+    Gradient 1.0, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.021249932644279296), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 10.010848190113371, Best r2 0.519658343087773
+    Gradient 1.0, Subset 4 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.781807354598968, Best r2 0.562133353839372
+    Gradient 1.0, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 22), ('min_samples_leaf', 4), ('min_samples_split', 4), ('n_estimators', 169)]), Best rmse 10.23700092281854, Best r2 0.5006092544132092
+    Gradient 1.0, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.07011270833833098), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.788778877057026)]), Best rmse 9.952406841648449, Best r2 0.5183447190753723
+    Gradient 1.0, Subset 5 - SVR: Best Params OrderedDict([('C', 0.1690217463645668), ('epsilon', 0.0829269871706298), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.523765155774313, Best r2 0.5814367016554705
+    Starting training for Gradient 1.0, Target: Compression strength paralled to grain
+    Gradient 1.0, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 38), ('min_samples_leaf', 2), ('min_samples_split', 3), ('n_estimators', 116)]), Best rmse 3.3240103924790376, Best r2 0.6513412255124974
+    Gradient 1.0, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.09672569547984006), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5033195708955905)]), Best rmse 3.2159402214796438, Best r2 0.6741415191845487
+    Gradient 1.0, Subset 1 - SVR: Best Params OrderedDict([('C', 0.332865112291609), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.0748630843772284, Best r2 0.7053205939576117
+    Gradient 1.0, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 49), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 86)]), Best rmse 3.3299006246170473, Best r2 0.6499995397584339
+    Gradient 1.0, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.03179302109304673), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.233584193653415, Best r2 0.6710846236504502
+    Gradient 1.0, Subset 2 - SVR: Best Params OrderedDict([('C', 0.1582815798982181), ('epsilon', 0.19746211724061788), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.0913853049130835, Best r2 0.7046974151461749
+    Gradient 1.0, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 37), ('min_samples_leaf', 2), ('min_samples_split', 3), ('n_estimators', 87)]), Best rmse 3.3076121722691227, Best r2 0.6561062305083135
+    Gradient 1.0, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.08941835335109963), ('max_depth', 3), ('n_estimators', 117), ('subsample', 0.5)]), Best rmse 3.2505123283525763, Best r2 0.6679258739172751
+    Gradient 1.0, Subset 3 - SVR: Best Params OrderedDict([('C', 0.4352663828190455), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.068831774711133, Best r2 0.7046725580034696
+    Gradient 1.0, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 25), ('min_samples_leaf', 1), ('min_samples_split', 3), ('n_estimators', 150)]), Best rmse 3.3475141733196643, Best r2 0.6496200623636803
+    Gradient 1.0, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.2437333552659724, Best r2 0.6663551961883956
+    Gradient 1.0, Subset 4 - SVR: Best Params OrderedDict([('C', 0.3338180021450319), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.0749217558569604, Best r2 0.7053065034813086
+    Gradient 1.0, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 11), ('min_samples_leaf', 1), ('min_samples_split', 3), ('n_estimators', 200)]), Best rmse 3.3459825594451034, Best r2 0.6491883686183489
+    Gradient 1.0, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.02328127330110644), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.2884594992516107, Best r2 0.6647405992535995
+    Gradient 1.0, Subset 5 - SVR: Best Params OrderedDict([('C', 0.3258690191702446), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.075374909151333, Best r2 0.7052521103326196
+    All results saved to results_all_gradients.json
+    
+
+
+```python
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.model_selection import KFold, cross_val_score, GridSearchCV
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.svm import SVR
+from sklearn.neural_network import MLPRegressor
+import xgboost as xgb
+from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import StandardScaler
+from skopt import BayesSearchCV  # 贝叶斯优化
+import joblib  # 用于保存和加载模型
+import numpy as np
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module='skopt')
+
+# 目标列名称
+target_columns = [
+    "Bending resistant modulus of elasticity",
+    "Bending strength",
+    "Compression strength paralled to grain"
+]
+
+# 数据加载函数
+def load_synthetic_data(gradient_folder):
+    synthetic_data_list = []
+    for i in range(5):  # 每个梯度有5个子集
+        synthetic_path = os.path.join(gradient_folder, f"synthetic_subset_{i + 1}.csv")
+        synthetic_data = pd.read_csv(synthetic_path)
+        synthetic_data_list.append(synthetic_data)
+    return synthetic_data_list
+
+# 数据预处理：删除样本ID和目标列，返回特征和目标
+def preprocess_data(data, target_column):
+    features = data.drop(columns=["sample id"] + target_columns)
+    target = data[target_column]
+    return features, target
+
+# 交叉验证函数
+def evaluate_model(model, params, X, y, cv=5):
+    # 使用贝叶斯搜索CV进行参数优化
+    search = BayesSearchCV(
+        model,
+        params,
+        n_iter=32,
+        cv=cv,
+        n_jobs=-1,
+        scoring={'rmse': 'neg_root_mean_squared_error', 'r2': 'r2'},
+        refit='r2',  # 使用R²优化模型参数
+        random_state=42
+    )
+    search.fit(X, y)
+    
+    # 获取最佳参数
+    best_params = search.best_params_
+    
+    # 从搜索结果中提取最佳RMSE和R²
+    best_rmse = -search.cv_results_['mean_test_rmse'][search.best_index_]
+    best_r2 = search.cv_results_['mean_test_r2'][search.best_index_]
+    
+    return best_params, best_rmse, best_r2, search.best_estimator_  # 返回训练好的模型
+
+
+# 定义模型和搜索的超参数空间
+rf_params = {
+    'n_estimators': (50, 200),
+    'max_depth': (5, 50),
+    'min_samples_split': (2, 10),
+    'min_samples_leaf': (1, 5),
+}
+
+xgb_params = {
+    'learning_rate': (0.001, 0.1),
+    'n_estimators': (50, 200),
+    'max_depth': (3, 10),
+    'colsample_bytree': (0.5, 0.9),
+    'subsample': (0.5, 0.9)
+}
+
+svr_params = {
+    'kernel': ['linear', 'rbf', 'poly'],
+    'C': (0.1, 10),
+    'epsilon': (0.01, 0.2),
+    'gamma': ('scale', 'auto')
+}
+
+
+from collections import defaultdict
+
+# 记录每个梯度、子集、目标的结果
+results = defaultdict(lambda: defaultdict(list))  # {gradient: {metric: [values]}}
+
+# 保存训练模型
+model_save_dir = './saved_models'
+os.makedirs(model_save_dir, exist_ok=True)
+
+for gradient in [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]:
+    gradient_folder = f"./content/Gaussiansynthetic/gradient_{int(gradient * 100)}"
+    synthetic_data_list = load_synthetic_data(gradient_folder)
+    
+    for target_column in target_columns:
+        print(f"Starting training for Gradient {gradient}, Target: {target_column}")
+        
+        # 5折交叉验证
+        for subset_idx, data in enumerate(synthetic_data_list):
+            X, y = preprocess_data(data, target_column)
+            X_scaled = StandardScaler().fit_transform(X)
+
+            # Random Forest
+            rf_best_params, rf_best_rmse, rf_best_r2, rf_best_model = evaluate_model(RandomForestRegressor(), rf_params, X_scaled, y)
+            results[gradient]["rf_rmse"].append(rf_best_rmse)
+            results[gradient]["rf_r2"].append(rf_best_r2)
+            joblib.dump(rf_best_model, os.path.join(model_save_dir, f'rf_model_gradient_{gradient}_target_{target_column}.pkl'))
+            print(f"Gradient {gradient}, Subset {subset_idx + 1} - Random Forest: Best Params {rf_best_params}, Best rmse {rf_best_rmse}, Best r2 {rf_best_r2}")
+
+            # XGBoost
+            xgb_best_params, xgb_best_rmse, xgb_best_r2, xgb_best_model = evaluate_model(xgb.XGBRegressor(objective='reg:squarederror'), xgb_params, X_scaled, y)
+            results[gradient]["xgb_rmse"].append(xgb_best_rmse)
+            results[gradient]["xgb_r2"].append(xgb_best_r2)
+            joblib.dump(xgb_best_model, os.path.join(model_save_dir, f'xgb_model_gradient_{gradient}_target_{target_column}.pkl'))
+            print(f"Gradient {gradient}, Subset {subset_idx + 1} - XGBoost: Best Params {xgb_best_params}, Best rmse {xgb_best_rmse}, Best r2 {xgb_best_r2}")
+
+            # Support Vector Machine (SVR)
+            svr_best_params, svr_best_rmse, svr_best_r2, svr_best_model = evaluate_model(SVR(), svr_params, X_scaled, y)
+            results[gradient]["svr_rmse"].append(svr_best_rmse)
+            results[gradient]["svr_r2"].append(svr_best_r2)
+            joblib.dump(svr_best_model, os.path.join(model_save_dir, f'svr_model_gradient_{gradient}_target_{target_column}.pkl'))
+            print(f"Gradient {gradient}, Subset {subset_idx + 1} - SVR: Best Params {svr_best_params}, Best rmse {svr_best_rmse}, Best r2 {svr_best_r2}")
+
+import os
+import pandas as pd
+import joblib
+import matplotlib.pyplot as plt
+from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import StandardScaler
+
+# 加载验证数据
+test_data = pd.read_csv("restructured_data.csv")
+
+# 数据预处理函数
+def preprocess_data(data, target_column):
+    features = data.drop(columns=["sample id"] + target_columns)
+    target = data[target_column]
+    return features, target
+
+# 加载所有保存的模型
+model_save_dir = './saved_models'
+
+# 梯度和目标列的定义
+gradients = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+target_columns = [
+    "Bending resistant modulus of elasticity",
+    "Bending strength",
+    "Compression strength paralled to grain"
+]
+
+
+```
+
+    Starting training for Gradient 0.1, Target: Bending resistant modulus of elasticity
+    Gradient 0.1, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 188)]), Best rmse 1751.9567091274785, Best r2 -2.686019446014253
+    Gradient 0.1, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5152229446918383), ('learning_rate', 0.08951770575481845), ('max_depth', 10), ('n_estimators', 138), ('subsample', 0.5676019601681134)]), Best rmse 1620.7775366920328, Best r2 -2.5971874854905166
+    Gradient 0.1, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1912.0247054807962, Best r2 -2.799905686262373
+    Gradient 0.1, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 55)]), Best rmse 1317.6285104273097, Best r2 -0.34834677054001667
+    Gradient 0.1, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6766539406706236), ('learning_rate', 0.1), ('max_depth', 10), ('n_estimators', 159), ('subsample', 0.6297657599456297)]), Best rmse 1395.6507137783353, Best r2 0.016126494363696064
+    Gradient 0.1, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 2190.241331987942, Best r2 -5.038298828138315
+    Gradient 0.1, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 1324.7296235872388, Best r2 -1.4033282273798289
+    Gradient 0.1, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.08810412688705709), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 1148.9871214721325, Best r2 -0.400718815400851
+    Gradient 0.1, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2005.192711004312, Best r2 -4.522986105227239
+    Gradient 0.1, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 827.7307845710832, Best r2 0.1711681114345694
+    Gradient 0.1, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7225814606273298), ('learning_rate', 0.0345010499223569), ('max_depth', 7), ('n_estimators', 104), ('subsample', 0.9)]), Best rmse 1210.5924784517351, Best r2 -2.2897395646003114
+    Gradient 0.1, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1250.7513989611598, Best r2 -5.764592789710294
+    Gradient 0.1, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 1190.1669041219254, Best r2 0.3457306540901062
+    Gradient 0.1, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.837073910950713), ('learning_rate', 0.07146293793474845), ('max_depth', 6), ('n_estimators', 100), ('subsample', 0.5989747757681588)]), Best rmse 1054.2614837819663, Best r2 0.35374761146288414
+    Gradient 0.1, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1689.9215512664844, Best r2 -0.31449027863823364
+    Starting training for Gradient 0.1, Target: Bending strength
+    Gradient 0.1, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 2), ('min_samples_split', 4), ('n_estimators', 57)]), Best rmse 7.199694161237593, Best r2 0.4084071574303955
+    Gradient 0.1, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8139244172870488), ('learning_rate', 0.04345434106234476), ('max_depth', 6), ('n_estimators', 200), ('subsample', 0.8425639134961053)]), Best rmse 6.250708459443745, Best r2 0.5855736582014102
+    Gradient 0.1, Subset 1 - SVR: Best Params OrderedDict([('C', 2.2197260419060783), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 6.426921376867776, Best r2 0.4912419911563985
+    Gradient 0.1, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 2), ('min_samples_split', 6), ('n_estimators', 50)]), Best rmse 10.95669070121999, Best r2 -81.58842684590863
+    Gradient 0.1, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.6082449230120499)]), Best rmse 11.527902221400216, Best r2 -66.21397092558479
+    Gradient 0.1, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 5.4884856373535005, Best r2 0.3210230817323775
+    Gradient 0.1, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 11.300981695473524, Best r2 -0.2510517291165978
+    Gradient 0.1, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.1), ('max_depth', 10), ('n_estimators', 197), ('subsample', 0.9)]), Best rmse 10.073496273446263, Best r2 0.11696635306271945
+    Gradient 0.1, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 4.545622946621018, Best r2 0.7247967119456563
+    Gradient 0.1, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 5), ('min_samples_split', 6), ('n_estimators', 50)]), Best rmse 9.528694237302867, Best r2 -5.09677354022771
+    Gradient 0.1, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.07280207928183761), ('max_depth', 10), ('n_estimators', 59), ('subsample', 0.6743522510461256)]), Best rmse 9.422901408654008, Best r2 -4.39689683007066
+    Gradient 0.1, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'poly')]), Best rmse 7.643445117018149, Best r2 -2.395602653774394
+    Gradient 0.1, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 2), ('min_samples_split', 7), ('n_estimators', 115)]), Best rmse 13.452053688809906, Best r2 -6.83056621090994
+    Gradient 0.1, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.0922292560683157), ('max_depth', 10), ('n_estimators', 109), ('subsample', 0.8358179555263)]), Best rmse 10.004125630478024, Best r2 -2.3768467908350193
+    Gradient 0.1, Subset 5 - SVR: Best Params OrderedDict([('C', 0.4899711669324347), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'poly')]), Best rmse 16.927589003946174, Best r2 -16.221725994593104
+    Starting training for Gradient 0.1, Target: Compression strength paralled to grain
+    Gradient 0.1, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 5), ('n_estimators', 200)]), Best rmse 2.8247706194996156, Best r2 -0.12861208108612282
+    Gradient 0.1, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7027152883673267), ('learning_rate', 0.012926190774638722), ('max_depth', 4), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 2.9777172315888145, Best r2 -0.34997086572593616
+    Gradient 0.1, Subset 1 - SVR: Best Params OrderedDict([('C', 0.1), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2.0540325314975094, Best r2 0.31373548277481705
+    Gradient 0.1, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 42), ('min_samples_leaf', 2), ('min_samples_split', 7), ('n_estimators', 170)]), Best rmse 4.8207998366399405, Best r2 -3.073797787859079
+    Gradient 0.1, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.09098064663990453), ('max_depth', 4), ('n_estimators', 157), ('subsample', 0.5526563431329357)]), Best rmse 3.894001750581835, Best r2 -2.159708961273398
+    Gradient 0.1, Subset 2 - SVR: Best Params OrderedDict([('C', 6.010712036208819), ('epsilon', 0.09644594687068553), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2.5669837197814322, Best r2 -0.5022517787987095
+    Gradient 0.1, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 4.649077846072171, Best r2 -4.833160930243485
+    Gradient 0.1, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5106351853546678), ('learning_rate', 0.07163403618977206), ('max_depth', 4), ('n_estimators', 167), ('subsample', 0.8104837427094862)]), Best rmse 4.297406394000378, Best r2 -2.475900845469402
+    Gradient 0.1, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 0.9161727692040514, Best r2 0.9001117046993079
+    Gradient 0.1, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 4), ('n_estimators', 50)]), Best rmse 3.4282720377405105, Best r2 -3.8188535296649433
+    Gradient 0.1, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7150350301626217), ('learning_rate', 0.09193430707578713), ('max_depth', 8), ('n_estimators', 200), ('subsample', 0.5769966796961071)]), Best rmse 3.4748132150570883, Best r2 -4.65651045106677
+    Gradient 0.1, Subset 4 - SVR: Best Params OrderedDict([('C', 0.212986278041834), ('epsilon', 0.028723388174707508), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1.6696758654483355, Best r2 0.717835604092557
+    Gradient 0.1, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 3.784257124141311, Best r2 -0.06402982648824469
+    Gradient 0.1, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.08132985950747801), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.5832240892757765, Best r2 0.010134595006352675
+    Gradient 0.1, Subset 5 - SVR: Best Params OrderedDict([('C', 0.1), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.056417447870668, Best r2 0.2576220750853576
+    Starting training for Gradient 0.2, Target: Bending resistant modulus of elasticity
+    Gradient 0.2, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 7), ('n_estimators', 51)]), Best rmse 1882.3882044304996, Best r2 0.4644346966418066
+    Gradient 0.2, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8261032357992956), ('learning_rate', 0.08319179410774573), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1568.0019514549833, Best r2 0.642571960558271
+    Gradient 0.2, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2525.8623839624306, Best r2 0.1470923307902293
+    Gradient 0.2, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 162)]), Best rmse 1808.55518026906, Best r2 0.06255925609646935
+    Gradient 0.2, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8204211744552832), ('learning_rate', 0.013758245807385959), ('max_depth', 8), ('n_estimators', 183), ('subsample', 0.5250217999384839)]), Best rmse 1723.6033530936425, Best r2 0.20481406494056245
+    Gradient 0.2, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1738.0681990444202, Best r2 0.20413088235941731
+    Gradient 0.2, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 3), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 1187.689789353919, Best r2 0.4578509043121162
+    Gradient 0.2, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.690444227229957), ('learning_rate', 0.015764718118890336), ('max_depth', 3), ('n_estimators', 150), ('subsample', 0.8266719523583947)]), Best rmse 1262.842273458699, Best r2 0.3985125406225604
+    Gradient 0.2, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1758.5125904037486, Best r2 -0.18172888710289425
+    Gradient 0.2, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 1614.168984095524, Best r2 0.36839291590521117
+    Gradient 0.2, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6794860739362675), ('learning_rate', 0.026113124363824215), ('max_depth', 3), ('n_estimators', 90), ('subsample', 0.5)]), Best rmse 1737.1810078527847, Best r2 0.2700921990251809
+    Gradient 0.2, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1846.4630442436896, Best r2 0.22413441920388885
+    Gradient 0.2, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 42), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 58)]), Best rmse 1443.505991796906, Best r2 0.4936135290487208
+    Gradient 0.2, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7936112071942274), ('learning_rate', 0.0939976040226744), ('max_depth', 4), ('n_estimators', 78), ('subsample', 0.820201292582698)]), Best rmse 1166.015421778559, Best r2 0.6760781552263688
+    Gradient 0.2, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2033.0302382421858, Best r2 0.1608922389966983
+    Starting training for Gradient 0.2, Target: Bending strength
+    Gradient 0.2, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 9), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 10.587459844086348, Best r2 0.014961535444798345
+    Gradient 0.2, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5014521229018973), ('learning_rate', 0.08196517194671141), ('max_depth', 8), ('n_estimators', 88), ('subsample', 0.731465734491354)]), Best rmse 9.618321962280799, Best r2 0.22122611745973159
+    Gradient 0.2, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'poly')]), Best rmse 10.481828959671521, Best r2 -0.04313283694639469
+    Gradient 0.2, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 154)]), Best rmse 10.213846824484271, Best r2 0.3041406731961356
+    Gradient 0.2, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.08789101150011319), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.5423668886624956)]), Best rmse 8.89848445671926, Best r2 0.47138632956945514
+    Gradient 0.2, Subset 2 - SVR: Best Params OrderedDict([('C', 8.826440506972691), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 6.879424843679402, Best r2 0.7112400836904911
+    Gradient 0.2, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 23), ('min_samples_leaf', 4), ('min_samples_split', 9), ('n_estimators', 97)]), Best rmse 12.414582491372546, Best r2 -0.9594198625227028
+    Gradient 0.2, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.0019353397924691406), ('max_depth', 7), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 13.460595972038316, Best r2 0.15370024097557794
+    Gradient 0.2, Subset 3 - SVR: Best Params OrderedDict([('C', 9.137413434816963), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'poly')]), Best rmse 11.784238832920582, Best r2 0.21008047322751153
+    Gradient 0.2, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 4), ('min_samples_split', 9), ('n_estimators', 119)]), Best rmse 10.264652778771971, Best r2 0.48253317787194094
+    Gradient 0.2, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.822239858435865), ('learning_rate', 0.06210031914208202), ('max_depth', 10), ('n_estimators', 50), ('subsample', 0.6492458087121088)]), Best rmse 11.008299447419228, Best r2 0.40480953286683546
+    Gradient 0.2, Subset 4 - SVR: Best Params OrderedDict([('C', 8.165197488790994), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 6.327605789234496, Best r2 0.8084661163373837
+    Gradient 0.2, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 178)]), Best rmse 11.438751899300566, Best r2 0.5128800154665415
+    Gradient 0.2, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.0581117797730012), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5)]), Best rmse 11.61611390475626, Best r2 0.46867263963942013
+    Gradient 0.2, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'poly')]), Best rmse 12.686385528106175, Best r2 0.417562834133472
+    Starting training for Gradient 0.2, Target: Compression strength paralled to grain
+    Gradient 0.2, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 3), ('n_estimators', 154)]), Best rmse 3.2799105790592655, Best r2 0.6218948802617834
+    Gradient 0.2, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6778630559368913), ('learning_rate', 0.054957623651350186), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.6142590636552017)]), Best rmse 3.20579839069332, Best r2 0.6457412071443154
+    Gradient 0.2, Subset 1 - SVR: Best Params OrderedDict([('C', 1.093965150784692), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2.581499146146995, Best r2 0.7909559744653931
+    Gradient 0.2, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 48), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 198)]), Best rmse 4.104876927743232, Best r2 0.19647614299385172
+    Gradient 0.2, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6779330049204607), ('learning_rate', 0.09195352964526833), ('max_depth', 4), ('n_estimators', 115), ('subsample', 0.5751820745469395)]), Best rmse 3.142602757008487, Best r2 0.545771813360451
+    Gradient 0.2, Subset 2 - SVR: Best Params OrderedDict([('C', 6.003287084984337), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1.844185461984963, Best r2 0.8270159208714836
+    Gradient 0.2, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 43), ('min_samples_leaf', 5), ('min_samples_split', 4), ('n_estimators', 193)]), Best rmse 4.763006329216826, Best r2 0.15651583117103546
+    Gradient 0.2, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.016725795872169998), ('max_depth', 7), ('n_estimators', 167), ('subsample', 0.7582802103822088)]), Best rmse 4.290324919631799, Best r2 0.05539945906605874
+    Gradient 0.2, Subset 3 - SVR: Best Params OrderedDict([('C', 1.643400155658551), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.2642304329967615, Best r2 0.6646452818657186
+    Gradient 0.2, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 14), ('min_samples_leaf', 3), ('min_samples_split', 4), ('n_estimators', 50)]), Best rmse 4.281368757750656, Best r2 0.3568902609586868
+    Gradient 0.2, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.07984513779571685), ('max_depth', 10), ('n_estimators', 105), ('subsample', 0.5229882474744558)]), Best rmse 3.9284305286572367, Best r2 0.4059144524063426
+    Gradient 0.2, Subset 4 - SVR: Best Params OrderedDict([('C', 1.852181616350567), ('epsilon', 0.19869526106379), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.6660569844967683, Best r2 0.482627996137256
+    Gradient 0.2, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 50)]), Best rmse 4.029766018260427, Best r2 0.5812732474207966
+    Gradient 0.2, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7571794852023213), ('learning_rate', 0.034848116429061375), ('max_depth', 8), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 4.237170756281996, Best r2 0.5266601862117707
+    Gradient 0.2, Subset 5 - SVR: Best Params OrderedDict([('C', 0.5648021403237538), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.404702123799198, Best r2 0.7122093671688522
+    Starting training for Gradient 0.3, Target: Bending resistant modulus of elasticity
+    Gradient 0.3, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 20), ('min_samples_leaf', 2), ('min_samples_split', 7), ('n_estimators', 161)]), Best rmse 1749.2554554381902, Best r2 0.3843171585680957
+    Gradient 0.3, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1533.1020032139354, Best r2 0.49113213309641335
+    Gradient 0.3, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1823.42057589958, Best r2 0.4021891011861173
+    Gradient 0.3, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 33), ('min_samples_leaf', 1), ('min_samples_split', 10), ('n_estimators', 50)]), Best rmse 1172.0655224182804, Best r2 0.5898141025394985
+    Gradient 0.3, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.02217658768290658), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1111.649870758704, Best r2 0.6135723150639457
+    Gradient 0.3, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1235.40122347604, Best r2 0.559413885288724
+    Gradient 0.3, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 27), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 1399.691221044755, Best r2 0.5325570106595855
+    Gradient 0.3, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7490227694321421), ('learning_rate', 0.044444026048006104), ('max_depth', 8), ('n_estimators', 142), ('subsample', 0.5862289630985202)]), Best rmse 1383.2232905841533, Best r2 0.5378714742926892
+    Gradient 0.3, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1594.7178936404428, Best r2 0.4228946061932036
+    Gradient 0.3, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 44), ('min_samples_leaf', 2), ('min_samples_split', 7), ('n_estimators', 191)]), Best rmse 1773.5154904497588, Best r2 0.16083026346133142
+    Gradient 0.3, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5872002621617716), ('learning_rate', 0.043138127036345036), ('max_depth', 3), ('n_estimators', 170), ('subsample', 0.5)]), Best rmse 1641.9869839200521, Best r2 0.3439902850189226
+    Gradient 0.3, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1750.8386158502494, Best r2 0.31125797206187084
+    Gradient 0.3, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 18), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 1294.235983543084, Best r2 0.6256812746693008
+    Gradient 0.3, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6761516407151815), ('learning_rate', 0.09609395616879464), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1095.6505852879084, Best r2 0.7559596032961539
+    Gradient 0.3, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1429.0563754458199, Best r2 0.5934226842191312
+    Starting training for Gradient 0.3, Target: Bending strength
+    Gradient 0.3, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 45), ('min_samples_leaf', 1), ('min_samples_split', 8), ('n_estimators', 161)]), Best rmse 10.548584313228375, Best r2 0.5049620532653076
+    Gradient 0.3, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6127484122539327), ('learning_rate', 0.0888900643373456), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.9)]), Best rmse 11.687110978360183, Best r2 0.359290575526258
+    Gradient 0.3, Subset 1 - SVR: Best Params OrderedDict([('C', 1.1010119598779788), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 10.587929574042091, Best r2 0.4003972822395701
+    Gradient 0.3, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 11.164141622941994, Best r2 0.09227788715329374
+    Gradient 0.3, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7455126706955661), ('learning_rate', 0.05139716806186108), ('max_depth', 3), ('n_estimators', 160), ('subsample', 0.7362892020049912)]), Best rmse 10.291031000603613, Best r2 0.1951950496594387
+    Gradient 0.3, Subset 2 - SVR: Best Params OrderedDict([('C', 1.3906385492559956), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 8.747187574463059, Best r2 0.4757078951653365
+    Gradient 0.3, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 198)]), Best rmse 10.075976935339538, Best r2 0.5924197982263445
+    Gradient 0.3, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.04180766586461952), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 8.426848423216649, Best r2 0.7095666634251827
+    Gradient 0.3, Subset 3 - SVR: Best Params OrderedDict([('C', 4.844106758686077), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 9.087011782085606, Best r2 0.6540593528149428
+    Gradient 0.3, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 43), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 10.818364135722216, Best r2 0.49899002282002236
+    Gradient 0.3, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.07875287134218673), ('max_depth', 10), ('n_estimators', 190), ('subsample', 0.7900888203707326)]), Best rmse 9.890255553661508, Best r2 0.5790521278066667
+    Gradient 0.3, Subset 4 - SVR: Best Params OrderedDict([('C', 1.9075621510215806), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 7.36838896379474, Best r2 0.7768522016100111
+    Gradient 0.3, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 124)]), Best rmse 10.429476824738718, Best r2 0.565788873211266
+    Gradient 0.3, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.08313678178120318), ('max_depth', 10), ('n_estimators', 50), ('subsample', 0.5)]), Best rmse 10.067243187208367, Best r2 0.6301446508143752
+    Gradient 0.3, Subset 5 - SVR: Best Params OrderedDict([('C', 1.0598436414110133), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 8.313893092896251, Best r2 0.7531592832764759
+    Starting training for Gradient 0.3, Target: Compression strength paralled to grain
+    Gradient 0.3, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 32), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 169)]), Best rmse 3.930601637507107, Best r2 0.4720767310144297
+    Gradient 0.3, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.632834860799035), ('learning_rate', 0.02011503153751856), ('max_depth', 8), ('n_estimators', 118), ('subsample', 0.7013439353505506)]), Best rmse 4.145407243316042, Best r2 0.408051138402686
+    Gradient 0.3, Subset 1 - SVR: Best Params OrderedDict([('C', 0.10315846066917361), ('epsilon', 0.03920734086532745), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.491705903604039, Best r2 0.5304633842310673
+    Gradient 0.3, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 48), ('min_samples_leaf', 4), ('min_samples_split', 9), ('n_estimators', 107)]), Best rmse 4.357132010507779, Best r2 -0.030416586041110926
+    Gradient 0.3, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5988427507421054), ('learning_rate', 0.005366226378764714), ('max_depth', 8), ('n_estimators', 137), ('subsample', 0.548763083780694)]), Best rmse 4.749232024503082, Best r2 0.0866760466355494
+    Gradient 0.3, Subset 2 - SVR: Best Params OrderedDict([('C', 3.870660580245067), ('epsilon', 0.14901475506153164), ('gamma', 'auto'), ('kernel', 'poly')]), Best rmse 4.639926355569721, Best r2 0.10231601442497469
+    Gradient 0.3, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 185)]), Best rmse 4.240755003937467, Best r2 0.5563470579325581
+    Gradient 0.3, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.07493714997691901), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.526801567949693)]), Best rmse 3.3910708589446634, Best r2 0.7064701607591055
+    Gradient 0.3, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'rbf')]), Best rmse 3.5175742749718113, Best r2 0.7055110315417943
+    Gradient 0.3, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 24), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 3.2959950473391486, Best r2 0.6272843683703415
+    Gradient 0.3, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5014521229018973), ('learning_rate', 0.08196517194671141), ('max_depth', 8), ('n_estimators', 88), ('subsample', 0.731465734491354)]), Best rmse 3.275323515266404, Best r2 0.6392968509119832
+    Gradient 0.3, Subset 4 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 2.873269205329026, Best r2 0.7430854784185812
+    Gradient 0.3, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 4.0657897997552395, Best r2 0.45563549713099877
+    Gradient 0.3, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7144055069044495), ('learning_rate', 0.04862338390552309), ('max_depth', 3), ('n_estimators', 161), ('subsample', 0.5)]), Best rmse 3.934143852526627, Best r2 0.5354024254473353
+    Gradient 0.3, Subset 5 - SVR: Best Params OrderedDict([('C', 0.21305259833528617), ('epsilon', 0.016399700449548426), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.46755306671628, Best r2 0.6340577849349345
+    Starting training for Gradient 0.4, Target: Bending resistant modulus of elasticity
+    Gradient 0.4, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 25), ('min_samples_leaf', 5), ('min_samples_split', 3), ('n_estimators', 115)]), Best rmse 1580.232542258611, Best r2 0.28673873324120813
+    Gradient 0.4, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.046033447453638375), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5)]), Best rmse 1576.5580399942896, Best r2 0.31183900886436083
+    Gradient 0.4, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1599.9266962779736, Best r2 0.336759909192035
+    Gradient 0.4, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 21), ('min_samples_leaf', 4), ('min_samples_split', 4), ('n_estimators', 50)]), Best rmse 1748.0259383361586, Best r2 0.42360437712825005
+    Gradient 0.4, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7757708950891677), ('learning_rate', 0.0972005354348552), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 1519.6900978495994, Best r2 0.5569780668100113
+    Gradient 0.4, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1995.8088994462346, Best r2 0.2914063345311347
+    Gradient 0.4, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 41), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 157)]), Best rmse 1529.3941146503144, Best r2 0.39553778992931254
+    Gradient 0.4, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.6242733088820756)]), Best rmse 1459.6779725201145, Best r2 0.43709758156936285
+    Gradient 0.4, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.010000000000000021), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1543.1815374765201, Best r2 0.41462459561118636
+    Gradient 0.4, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 42), ('min_samples_leaf', 1), ('min_samples_split', 4), ('n_estimators', 200)]), Best rmse 1538.1710761496838, Best r2 0.6009779368354063
+    Gradient 0.4, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.07572768268309917), ('max_depth', 3), ('n_estimators', 147), ('subsample', 0.5)]), Best rmse 1310.878818587185, Best r2 0.7108530708272511
+    Gradient 0.4, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1723.4567854585052, Best r2 0.4883731859066606
+    Gradient 0.4, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 11), ('min_samples_leaf', 2), ('min_samples_split', 6), ('n_estimators', 81)]), Best rmse 1469.0752390560913, Best r2 0.5179903261197794
+    Gradient 0.4, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8915033718825777), ('learning_rate', 0.056685346004277), ('max_depth', 9), ('n_estimators', 180), ('subsample', 0.5608664153455841)]), Best rmse 1322.5461173927788, Best r2 0.6110129820501647
+    Gradient 0.4, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1583.8125773742036, Best r2 0.47410732206198664
+    Starting training for Gradient 0.4, Target: Bending strength
+    Gradient 0.4, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 3), ('min_samples_split', 5), ('n_estimators', 152)]), Best rmse 11.684801301740665, Best r2 0.5103364268799978
+    Gradient 0.4, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.03389489310782229), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 11.359785356240884, Best r2 0.5443018632485279
+    Gradient 0.4, Subset 1 - SVR: Best Params OrderedDict([('C', 3.7084223927124436), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 11.197835080332009, Best r2 0.5477255190805155
+    Gradient 0.4, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 41), ('min_samples_leaf', 2), ('min_samples_split', 6), ('n_estimators', 133)]), Best rmse 10.958902836009532, Best r2 0.48950982857362657
+    Gradient 0.4, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.894679335575866), ('learning_rate', 0.099759790432502), ('max_depth', 3), ('n_estimators', 76), ('subsample', 0.9)]), Best rmse 10.613463280929071, Best r2 0.5125365731796301
+    Gradient 0.4, Subset 2 - SVR: Best Params OrderedDict([('C', 0.9289701980486671), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 11.411685687454662, Best r2 0.45762180105039924
+    Gradient 0.4, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 5), ('min_samples_split', 10), ('n_estimators', 197)]), Best rmse 11.18997742231537, Best r2 0.3204080426938636
+    Gradient 0.4, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.7006709219951833)]), Best rmse 10.25611121883011, Best r2 0.46407754659601264
+    Gradient 0.4, Subset 3 - SVR: Best Params OrderedDict([('C', 1.0719679833813038), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.338299664469861, Best r2 0.5306048194570347
+    Gradient 0.4, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 2), ('min_samples_split', 4), ('n_estimators', 53)]), Best rmse 9.67538733929714, Best r2 0.5129371774682738
+    Gradient 0.4, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7745559083458364), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 159), ('subsample', 0.5100709753904039)]), Best rmse 10.09191143565373, Best r2 0.45630315110079717
+    Gradient 0.4, Subset 4 - SVR: Best Params OrderedDict([('C', 1.3024659076790501), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 8.65882413531563, Best r2 0.6109397168971183
+    Gradient 0.4, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 11), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 11.166951995906087, Best r2 0.444227723989428
+    Gradient 0.4, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7658836322093538), ('learning_rate', 0.1), ('max_depth', 10), ('n_estimators', 50), ('subsample', 0.6278115723976196)]), Best rmse 10.254014821935055, Best r2 0.5429966709094177
+    Gradient 0.4, Subset 5 - SVR: Best Params OrderedDict([('C', 4.080660443343643), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 8.216400079158324, Best r2 0.7012815536372157
+    Starting training for Gradient 0.4, Target: Compression strength paralled to grain
+    Gradient 0.4, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 41), ('min_samples_leaf', 2), ('min_samples_split', 4), ('n_estimators', 50)]), Best rmse 3.718047592155995, Best r2 0.6255255110244772
+    Gradient 0.4, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.04812388626608832), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 3.607376488824926, Best r2 0.6648892498799855
+    Gradient 0.4, Subset 1 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.6755096745461193, Best r2 0.6531900615345831
+    Gradient 0.4, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 2), ('min_samples_split', 4), ('n_estimators', 200)]), Best rmse 4.076117898133824, Best r2 0.5217865060847855
+    Gradient 0.4, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8821911945239713), ('learning_rate', 0.07036152301751523), ('max_depth', 9), ('n_estimators', 112), ('subsample', 0.6524259059189972)]), Best rmse 3.724480835885766, Best r2 0.5885152353938832
+    Gradient 0.4, Subset 2 - SVR: Best Params OrderedDict([('C', 8.932060546494165), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.410503519970896, Best r2 0.6513741398617707
+    Gradient 0.4, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 48), ('min_samples_leaf', 4), ('min_samples_split', 9), ('n_estimators', 112)]), Best rmse 3.938713057339848, Best r2 0.5586254971066232
+    Gradient 0.4, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.06471091032316954), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.694091236165131, Best r2 0.6160046240412193
+    Gradient 0.4, Subset 3 - SVR: Best Params OrderedDict([('C', 0.4306203660021839), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.539480008488989, Best r2 0.6397006319280562
+    Gradient 0.4, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 28), ('min_samples_leaf', 2), ('min_samples_split', 6), ('n_estimators', 143)]), Best rmse 4.079548577204867, Best r2 0.4168066353205327
+    Gradient 0.4, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.044429835652544304), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.7098004606259267, Best r2 0.5083738953992112
+    Gradient 0.4, Subset 4 - SVR: Best Params OrderedDict([('C', 0.8017925046194142), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2.8627870819445063, Best r2 0.7161296282614888
+    Gradient 0.4, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 38), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 3.558132884339547, Best r2 0.6111552705179814
+    Gradient 0.4, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6706776131309196), ('learning_rate', 0.08664727385519719), ('max_depth', 3), ('n_estimators', 165), ('subsample', 0.5376756572126933)]), Best rmse 3.197557573961271, Best r2 0.7025528924940945
+    Gradient 0.4, Subset 5 - SVR: Best Params OrderedDict([('C', 0.544910058062807), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 2.936954587297451, Best r2 0.6890194734695533
+    Starting training for Gradient 0.5, Target: Bending resistant modulus of elasticity
+    Gradient 0.5, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 5), ('min_samples_split', 5), ('n_estimators', 112)]), Best rmse 1483.7781998918367, Best r2 0.5382868392983328
+    Gradient 0.5, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7860303935766331), ('learning_rate', 0.03750140480787073), ('max_depth', 10), ('n_estimators', 152), ('subsample', 0.5143825766570552)]), Best rmse 1444.7861529808622, Best r2 0.560641313276747
+    Gradient 0.5, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1652.6861815007894, Best r2 0.46203768845959814
+    Gradient 0.5, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 1386.1724534494374, Best r2 0.5785293950418533
+    Gradient 0.5, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7936112071942274), ('learning_rate', 0.0939976040226744), ('max_depth', 4), ('n_estimators', 78), ('subsample', 0.820201292582698)]), Best rmse 1481.8786504382401, Best r2 0.5096597296642841
+    Gradient 0.5, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1660.9206695469784, Best r2 0.3987490924313877
+    Gradient 0.5, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 4), ('min_samples_split', 8), ('n_estimators', 88)]), Best rmse 1467.7808695055137, Best r2 0.6004329717602785
+    Gradient 0.5, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.05262429703353731), ('max_depth', 9), ('n_estimators', 152), ('subsample', 0.5)]), Best rmse 1432.3749799430832, Best r2 0.5964551672768397
+    Gradient 0.5, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1504.9893380252659, Best r2 0.587203815497719
+    Gradient 0.5, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 14), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 104)]), Best rmse 1600.728605054905, Best r2 0.5336505262366935
+    Gradient 0.5, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5576844076940484), ('learning_rate', 0.09254356895536628), ('max_depth', 4), ('n_estimators', 121), ('subsample', 0.6458518315593194)]), Best rmse 1514.004831583878, Best r2 0.574287061086604
+    Gradient 0.5, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1735.3619493050658, Best r2 0.4549490346735162
+    Gradient 0.5, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 3), ('min_samples_split', 2), ('n_estimators', 190)]), Best rmse 1720.5918615189653, Best r2 0.40932718244592026
+    Gradient 0.5, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6887269260391413), ('learning_rate', 0.09521041256476684), ('max_depth', 3), ('n_estimators', 110), ('subsample', 0.5984355192778421)]), Best rmse 1543.8419966254194, Best r2 0.5215027243176367
+    Gradient 0.5, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1711.5887066646385, Best r2 0.4218980675360001
+    Starting training for Gradient 0.5, Target: Bending strength
+    Gradient 0.5, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 3), ('min_samples_split', 10), ('n_estimators', 163)]), Best rmse 9.255625765461195, Best r2 0.568697663376408
+    Gradient 0.5, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6126366507878931), ('learning_rate', 0.04353860679895296), ('max_depth', 3), ('n_estimators', 82), ('subsample', 0.5536482898680765)]), Best rmse 9.491738230458981, Best r2 0.5471143629841121
+    Gradient 0.5, Subset 1 - SVR: Best Params OrderedDict([('C', 1.0430272997944487), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 8.594245106297597, Best r2 0.6248346456364813
+    Gradient 0.5, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 42), ('min_samples_leaf', 2), ('min_samples_split', 7), ('n_estimators', 170)]), Best rmse 12.378225386679361, Best r2 0.37143170093935357
+    Gradient 0.5, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.1), ('max_depth', 9), ('n_estimators', 175), ('subsample', 0.5)]), Best rmse 11.767547562925296, Best r2 0.4201138034561776
+    Gradient 0.5, Subset 2 - SVR: Best Params OrderedDict([('C', 1.2054337377528004), ('epsilon', 0.0438638064032462), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 11.694168721112494, Best r2 0.4204600414911175
+    Gradient 0.5, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 48), ('min_samples_leaf', 1), ('min_samples_split', 10), ('n_estimators', 199)]), Best rmse 10.596045911819601, Best r2 0.5092079342022126
+    Gradient 0.5, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6779330049204607), ('learning_rate', 0.09195352964526833), ('max_depth', 4), ('n_estimators', 115), ('subsample', 0.5751820745469395)]), Best rmse 10.106893887103027, Best r2 0.5496893001624285
+    Gradient 0.5, Subset 3 - SVR: Best Params OrderedDict([('C', 8.15234547214463), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 9.474183218044246, Best r2 0.566335404330354
+    Gradient 0.5, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 3), ('n_estimators', 193)]), Best rmse 11.738130726882556, Best r2 0.31414795244120597
+    Gradient 0.5, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.08007444869386507), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.7827472685812464)]), Best rmse 10.928232484047797, Best r2 0.39086614976737327
+    Gradient 0.5, Subset 4 - SVR: Best Params OrderedDict([('C', 0.4891359729801633), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 10.845369075044726, Best r2 0.4076894421927042
+    Gradient 0.5, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 12.990124743669847, Best r2 0.28984115396922305
+    Gradient 0.5, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.03210528803860856), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 11.941133915124656, Best r2 0.385720234420689
+    Gradient 0.5, Subset 5 - SVR: Best Params OrderedDict([('C', 1.219340054714327), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.869057481021226, Best r2 0.5351283692555014
+    Starting training for Gradient 0.5, Target: Compression strength paralled to grain
+    Gradient 0.5, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 12), ('min_samples_leaf', 3), ('min_samples_split', 8), ('n_estimators', 100)]), Best rmse 3.7387825421824687, Best r2 0.5565943521224821
+    Gradient 0.5, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.09346683515962567), ('max_depth', 3), ('n_estimators', 105), ('subsample', 0.5347865143040081)]), Best rmse 3.6336001077622258, Best r2 0.5578481983744792
+    Gradient 0.5, Subset 1 - SVR: Best Params OrderedDict([('C', 5.2165349388404625), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2.9498903564410597, Best r2 0.6643199196403289
+    Gradient 0.5, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 21), ('min_samples_leaf', 2), ('min_samples_split', 4), ('n_estimators', 200)]), Best rmse 3.7169711102881386, Best r2 0.5776835395310829
+    Gradient 0.5, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8548206951510726), ('learning_rate', 0.07414575348228505), ('max_depth', 4), ('n_estimators', 146), ('subsample', 0.5)]), Best rmse 3.2940266759206884, Best r2 0.6524814417688087
+    Gradient 0.5, Subset 2 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.5064633849100666, Best r2 0.595540623422065
+    Gradient 0.5, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 41), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 157)]), Best rmse 3.9676191977887045, Best r2 0.561844910954998
+    Gradient 0.5, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7699568235627368), ('learning_rate', 0.09371633884038896), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5)]), Best rmse 3.609281208018632, Best r2 0.6284201376649526
+    Gradient 0.5, Subset 3 - SVR: Best Params OrderedDict([('C', 0.5024300566928319), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.0035531887204967, Best r2 0.7201175935625483
+    Gradient 0.5, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 3), ('min_samples_split', 9), ('n_estimators', 196)]), Best rmse 4.264965428975478, Best r2 0.4599064788811626
+    Gradient 0.5, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.06450334471695104), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5064006609910459)]), Best rmse 4.135324853508054, Best r2 0.49482311603773815
+    Gradient 0.5, Subset 4 - SVR: Best Params OrderedDict([('C', 0.2317682273231747), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.347140564088014, Best r2 0.6512532164602904
+    Gradient 0.5, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 9), ('min_samples_leaf', 4), ('min_samples_split', 6), ('n_estimators', 96)]), Best rmse 3.680595093934417, Best r2 0.4747301363424567
+    Gradient 0.5, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.027265943703072205), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.53162526136162, Best r2 0.5114615657667343
+    Gradient 0.5, Subset 5 - SVR: Best Params OrderedDict([('C', 0.1), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.186498591615808, Best r2 0.5677258729011356
+    Starting training for Gradient 0.6, Target: Bending resistant modulus of elasticity
+    Gradient 0.6, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 48), ('min_samples_leaf', 3), ('min_samples_split', 2), ('n_estimators', 86)]), Best rmse 1429.003584483534, Best r2 0.5830901297611326
+    Gradient 0.6, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.04872963048300645), ('max_depth', 3), ('n_estimators', 160), ('subsample', 0.5)]), Best rmse 1230.7304028655508, Best r2 0.7010451579916019
+    Gradient 0.6, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1442.1920223894456, Best r2 0.5913115303867996
+    Gradient 0.6, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 10), ('min_samples_leaf', 2), ('min_samples_split', 10), ('n_estimators', 165)]), Best rmse 1576.9540927878497, Best r2 0.4199808452302075
+    Gradient 0.6, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8503441289373352), ('learning_rate', 0.012169928473025282), ('max_depth', 5), ('n_estimators', 196), ('subsample', 0.5)]), Best rmse 1600.4671375803864, Best r2 0.411299852880392
+    Gradient 0.6, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1603.621403057888, Best r2 0.3884842597670696
+    Gradient 0.6, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 34), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 1573.1856091240622, Best r2 0.5102627424688441
+    Gradient 0.6, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.06559136987495601), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.570770685296782)]), Best rmse 1447.4913493851268, Best r2 0.5812364980813072
+    Gradient 0.6, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1562.2466587083745, Best r2 0.5132209813072065
+    Gradient 0.6, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 9), ('n_estimators', 157)]), Best rmse 1305.878557938228, Best r2 0.6274982083413462
+    Gradient 0.6, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.08854416531472595), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1144.7458491832683, Best r2 0.7062150813317606
+    Gradient 0.6, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1318.4038566066333, Best r2 0.6179897342805699
+    Gradient 0.6, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 3), ('n_estimators', 54)]), Best rmse 1566.052735225826, Best r2 0.5141037753887989
+    Gradient 0.6, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.717361227076125), ('learning_rate', 0.09208091341729432), ('max_depth', 6), ('n_estimators', 176), ('subsample', 0.6296239929137495)]), Best rmse 1555.0688892570656, Best r2 0.5231293052097479
+    Gradient 0.6, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1661.3966130281683, Best r2 0.46109204970569595
+    Starting training for Gradient 0.6, Target: Bending strength
+    Gradient 0.6, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 42), ('min_samples_leaf', 2), ('min_samples_split', 7), ('n_estimators', 170)]), Best rmse 9.755215085877467, Best r2 0.6358370866683876
+    Gradient 0.6, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.04405390412488265), ('max_depth', 3), ('n_estimators', 165), ('subsample', 0.5)]), Best rmse 9.332447888814686, Best r2 0.669238076885781
+    Gradient 0.6, Subset 1 - SVR: Best Params OrderedDict([('C', 2.4225367539545366), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 8.377938884496658, Best r2 0.7330071712584093
+    Gradient 0.6, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 38), ('min_samples_leaf', 4), ('min_samples_split', 7), ('n_estimators', 50)]), Best rmse 10.504640422177168, Best r2 0.47984318552920124
+    Gradient 0.6, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7468317434009265), ('learning_rate', 0.07776107350396037), ('max_depth', 6), ('n_estimators', 181), ('subsample', 0.7370478701222272)]), Best rmse 10.46349023867066, Best r2 0.4903905777186724
+    Gradient 0.6, Subset 2 - SVR: Best Params OrderedDict([('C', 1.5257276446040442), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 10.344881330283517, Best r2 0.48599620858741543
+    Gradient 0.6, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 162)]), Best rmse 10.815969272019402, Best r2 0.48618876871731337
+    Gradient 0.6, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.0375521660972371), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 10.115951976352424, Best r2 0.5545662960205385
+    Gradient 0.6, Subset 3 - SVR: Best Params OrderedDict([('C', 2.2306157321233853), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.74105348392538, Best r2 0.5505512626777336
+    Gradient 0.6, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 38), ('min_samples_leaf', 2), ('min_samples_split', 3), ('n_estimators', 193)]), Best rmse 10.778402074253473, Best r2 0.5102727759141004
+    Gradient 0.6, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.085574315239877), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5)]), Best rmse 10.46529894332872, Best r2 0.5510096650426665
+    Gradient 0.6, Subset 4 - SVR: Best Params OrderedDict([('C', 9.02089326516666), ('epsilon', 0.01), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 9.30177403169534, Best r2 0.6376490097742257
+    Gradient 0.6, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 4), ('min_samples_split', 9), ('n_estimators', 86)]), Best rmse 10.359576330017973, Best r2 0.4418117992163085
+    Gradient 0.6, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.021748986370464844), ('max_depth', 9), ('n_estimators', 200), ('subsample', 0.5927217884698541)]), Best rmse 10.592127611203676, Best r2 0.4525145181831022
+    Gradient 0.6, Subset 5 - SVR: Best Params OrderedDict([('C', 3.5647358805444322), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 9.048284917185372, Best r2 0.546221341824695
+    Starting training for Gradient 0.6, Target: Compression strength paralled to grain
+    Gradient 0.6, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 23), ('min_samples_leaf', 4), ('min_samples_split', 9), ('n_estimators', 97)]), Best rmse 3.9116357861285005, Best r2 0.5367078762583941
+    Gradient 0.6, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.717361227076125), ('learning_rate', 0.09208091341729432), ('max_depth', 6), ('n_estimators', 176), ('subsample', 0.6296239929137495)]), Best rmse 3.810577815397204, Best r2 0.5709336411667574
+    Gradient 0.6, Subset 1 - SVR: Best Params OrderedDict([('C', 0.14970829409999528), ('epsilon', 0.19594740322911244), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.10945871427269, Best r2 0.6777051889762925
+    Gradient 0.6, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 4), ('min_samples_split', 8), ('n_estimators', 88)]), Best rmse 3.6754127834046875, Best r2 0.6534191784429151
+    Gradient 0.6, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.029842396511426107), ('max_depth', 3), ('n_estimators', 153), ('subsample', 0.5)]), Best rmse 3.5494670325457456, Best r2 0.6798298168118297
+    Gradient 0.6, Subset 2 - SVR: Best Params OrderedDict([('C', 0.3109217353717887), ('epsilon', 0.1997937819724006), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.125240335237966, Best r2 0.7490742761850385
+    Gradient 0.6, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 25), ('min_samples_leaf', 1), ('min_samples_split', 6), ('n_estimators', 194)]), Best rmse 3.8405614095611798, Best r2 0.5989836974158703
+    Gradient 0.6, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.02750528116026623), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5506881191452209)]), Best rmse 3.5529529767771137, Best r2 0.6584966933852039
+    Gradient 0.6, Subset 3 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.3426744611033437, Best r2 0.6904967715139921
+    Gradient 0.6, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 39), ('min_samples_leaf', 2), ('min_samples_split', 7), ('n_estimators', 136)]), Best rmse 4.504404427487545, Best r2 0.4750948586083793
+    Gradient 0.6, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.07749090210196048), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5)]), Best rmse 4.222714948287827, Best r2 0.5282952871706279
+    Gradient 0.6, Subset 4 - SVR: Best Params OrderedDict([('C', 1.3652605888022962), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.2690595171547985, Best r2 0.694385124573214
+    Gradient 0.6, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 35), ('min_samples_leaf', 1), ('min_samples_split', 5), ('n_estimators', 167)]), Best rmse 3.4840084459802005, Best r2 0.5808870746083443
+    Gradient 0.6, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8176308441331996), ('learning_rate', 0.030912578777681367), ('max_depth', 6), ('n_estimators', 195), ('subsample', 0.543924409645849)]), Best rmse 3.3877537295704654, Best r2 0.6218698668058099
+    Gradient 0.6, Subset 5 - SVR: Best Params OrderedDict([('C', 1.6957352166409492), ('epsilon', 0.11537713691658676), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 2.960009189094719, Best r2 0.7259704993434107
+    Starting training for Gradient 0.7, Target: Bending resistant modulus of elasticity
+    Gradient 0.7, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 49), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 129)]), Best rmse 1531.0002204256618, Best r2 0.4511206525154924
+    Gradient 0.7, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8512585695263648), ('learning_rate', 0.1), ('max_depth', 10), ('n_estimators', 163), ('subsample', 0.8386502670566243)]), Best rmse 1546.4301226157727, Best r2 0.44136780851275415
+    Gradient 0.7, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1702.2228758048611, Best r2 0.31250689663950537
+    Gradient 0.7, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 46), ('min_samples_leaf', 3), ('min_samples_split', 7), ('n_estimators', 176)]), Best rmse 1469.1661994817948, Best r2 0.5695447798313431
+    Gradient 0.7, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6033079667620838), ('learning_rate', 0.042950349550906326), ('max_depth', 4), ('n_estimators', 159), ('subsample', 0.5735450556912146)]), Best rmse 1338.3020986251177, Best r2 0.6367674134582677
+    Gradient 0.7, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1609.45596285467, Best r2 0.4716384819332654
+    Gradient 0.7, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 49), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 73)]), Best rmse 1467.619221859622, Best r2 0.5232616020430345
+    Gradient 0.7, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8730607646307091), ('learning_rate', 0.05931295299423181), ('max_depth', 3), ('n_estimators', 132), ('subsample', 0.5753849807744282)]), Best rmse 1420.2989649719602, Best r2 0.5433963874290105
+    Gradient 0.7, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1539.4124560068897, Best r2 0.481737733909846
+    Gradient 0.7, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 38), ('min_samples_leaf', 5), ('min_samples_split', 3), ('n_estimators', 78)]), Best rmse 1461.9412753903218, Best r2 0.5147089230714341
+    Gradient 0.7, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6801069781849571), ('learning_rate', 0.06949357726693055), ('max_depth', 9), ('n_estimators', 197), ('subsample', 0.5661033366304221)]), Best rmse 1346.5598759245652, Best r2 0.5838651016818519
+    Gradient 0.7, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1440.5862523390165, Best r2 0.5513393348183898
+    Gradient 0.7, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 1), ('min_samples_split', 6), ('n_estimators', 53)]), Best rmse 1413.1418809695895, Best r2 0.5841881945258053
+    Gradient 0.7, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8821911945239713), ('learning_rate', 0.07036152301751523), ('max_depth', 9), ('n_estimators', 112), ('subsample', 0.6524259059189972)]), Best rmse 1361.5165210346781, Best r2 0.5979952551353431
+    Gradient 0.7, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1453.075552719544, Best r2 0.5516206104466722
+    Starting training for Gradient 0.7, Target: Bending strength
+    Gradient 0.7, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 5), ('min_samples_split', 10), ('n_estimators', 50)]), Best rmse 9.823639701388151, Best r2 0.5633307888286678
+    Gradient 0.7, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.05994560609728371), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5)]), Best rmse 9.763582457895273, Best r2 0.5710715191793019
+    Gradient 0.7, Subset 1 - SVR: Best Params OrderedDict([('C', 3.4901711980729284), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.642432834022948, Best r2 0.5638649138468785
+    Gradient 0.7, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 10), ('min_samples_leaf', 2), ('min_samples_split', 6), ('n_estimators', 200)]), Best rmse 10.45407138098123, Best r2 0.5107250880585572
+    Gradient 0.7, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7826345871898172), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 136), ('subsample', 0.6427630767142836)]), Best rmse 9.913115143513265, Best r2 0.5581089146493825
+    Gradient 0.7, Subset 2 - SVR: Best Params OrderedDict([('C', 3.2941706259846315), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 10.430717164890243, Best r2 0.5308346457967292
+    Gradient 0.7, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 41), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 157)]), Best rmse 9.849451664191541, Best r2 0.6126811872083688
+    Gradient 0.7, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.048174865047851866), ('max_depth', 3), ('n_estimators', 86), ('subsample', 0.5)]), Best rmse 10.142739923112112, Best r2 0.5964325839617375
+    Gradient 0.7, Subset 3 - SVR: Best Params OrderedDict([('C', 3.443834785848782), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 8.739193952005408, Best r2 0.7032949027163029
+    Gradient 0.7, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 8), ('min_samples_leaf', 2), ('min_samples_split', 8), ('n_estimators', 65)]), Best rmse 9.507682665024198, Best r2 0.47741691680126214
+    Gradient 0.7, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5122499777687123), ('learning_rate', 0.07180702693202952), ('max_depth', 8), ('n_estimators', 112), ('subsample', 0.739229991780499)]), Best rmse 9.713463003371729, Best r2 0.5137617978011976
+    Gradient 0.7, Subset 4 - SVR: Best Params OrderedDict([('C', 0.1), ('epsilon', 0.19322967334600355), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 9.986793277570898, Best r2 0.490834837216995
+    Gradient 0.7, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 157)]), Best rmse 10.191897607844828, Best r2 0.5851139970082084
+    Gradient 0.7, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.022425327512612878), ('max_depth', 7), ('n_estimators', 200), ('subsample', 0.5055434262982327)]), Best rmse 10.146542246238251, Best r2 0.5798366949567582
+    Gradient 0.7, Subset 5 - SVR: Best Params OrderedDict([('C', 8.092952100435685), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.348933542947583, Best r2 0.6428603316566012
+    Starting training for Gradient 0.7, Target: Compression strength paralled to grain
+    Gradient 0.7, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 13), ('min_samples_leaf', 2), ('min_samples_split', 3), ('n_estimators', 200)]), Best rmse 3.9142507973822314, Best r2 0.5280596570631163
+    Gradient 0.7, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.09169173715857408), ('max_depth', 9), ('n_estimators', 50), ('subsample', 0.8088887707111669)]), Best rmse 3.7740073022806966, Best r2 0.594226035844325
+    Gradient 0.7, Subset 1 - SVR: Best Params OrderedDict([('C', 0.17044041043776925), ('epsilon', 0.022277023433472213), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.2209444337754904, Best r2 0.6949803781506347
+    Gradient 0.7, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 36), ('min_samples_leaf', 1), ('min_samples_split', 5), ('n_estimators', 157)]), Best rmse 3.9074859101610016, Best r2 0.568256993557094
+    Gradient 0.7, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.035495586223000274), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.6568962889703753, Best r2 0.6225804205212624
+    Gradient 0.7, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'rbf')]), Best rmse 3.3798042790674168, Best r2 0.6727265104400852
+    Gradient 0.7, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 65)]), Best rmse 3.47497053816045, Best r2 0.6862179777822722
+    Gradient 0.7, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.05849953721704659), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.9)]), Best rmse 3.4142134890175746, Best r2 0.6948797612150601
+    Gradient 0.7, Subset 3 - SVR: Best Params OrderedDict([('C', 0.6621266102909575), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.385722295789263, Best r2 0.6957277756333577
+    Gradient 0.7, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 37), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 65)]), Best rmse 3.6732271468016684, Best r2 0.5795952039482322
+    Gradient 0.7, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.023937727092755094), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.449599404138476, Best r2 0.6223348057754515
+    Gradient 0.7, Subset 4 - SVR: Best Params OrderedDict([('C', 0.1), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.3751541709132846, Best r2 0.6299898539450595
+    Gradient 0.7, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 21), ('min_samples_leaf', 3), ('min_samples_split', 5), ('n_estimators', 197)]), Best rmse 3.4955738113752988, Best r2 0.6894381912562302
+    Gradient 0.7, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.027401128825714244), ('max_depth', 3), ('n_estimators', 164), ('subsample', 0.5)]), Best rmse 3.294623452339136, Best r2 0.728050537920679
+    Gradient 0.7, Subset 5 - SVR: Best Params OrderedDict([('C', 0.1694397098827265), ('epsilon', 0.010351108337827652), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.012863443571382, Best r2 0.7732776770197728
+    Starting training for Gradient 0.8, Target: Bending resistant modulus of elasticity
+    Gradient 0.8, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 20), ('min_samples_leaf', 1), ('min_samples_split', 5), ('n_estimators', 182)]), Best rmse 1408.3266224856534, Best r2 0.5992086306696647
+    Gradient 0.8, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.06903573467692405), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1278.1067804177987, Best r2 0.6677656520562181
+    Gradient 0.8, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1400.6594505431954, Best r2 0.600981961531236
+    Gradient 0.8, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 49), ('min_samples_leaf', 2), ('min_samples_split', 5), ('n_estimators', 64)]), Best rmse 1436.6910022736947, Best r2 0.5326982436763932
+    Gradient 0.8, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.0336967387398452), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1362.301449005434, Best r2 0.5765591205317013
+    Gradient 0.8, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1391.395003682809, Best r2 0.5577556710309425
+    Gradient 0.8, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 37), ('min_samples_leaf', 3), ('min_samples_split', 3), ('n_estimators', 190)]), Best rmse 1311.6695483896235, Best r2 0.590938248431428
+    Gradient 0.8, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6960605831046918), ('learning_rate', 0.0357721749498466), ('max_depth', 3), ('n_estimators', 159), ('subsample', 0.6970725559458417)]), Best rmse 1259.8830327025978, Best r2 0.6115116540395793
+    Gradient 0.8, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1252.9673782455961, Best r2 0.6285465097505645
+    Gradient 0.8, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 8), ('n_estimators', 190)]), Best rmse 1354.8590710657256, Best r2 0.6084870179091474
+    Gradient 0.8, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6343474279886074), ('learning_rate', 0.06928743921496561), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1193.7399251761758, Best r2 0.6981246654012121
+    Gradient 0.8, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1394.1013298896048, Best r2 0.5892297097766461
+    Gradient 0.8, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 5), ('min_samples_split', 7), ('n_estimators', 190)]), Best rmse 1518.0472519159996, Best r2 0.4683163350312509
+    Gradient 0.8, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8433398958651757), ('learning_rate', 0.05771978785981798), ('max_depth', 10), ('n_estimators', 154), ('subsample', 0.5579280127580958)]), Best rmse 1476.6862354629807, Best r2 0.4655170275129346
+    Gradient 0.8, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1612.7560396663014, Best r2 0.444766797183273
+    Starting training for Gradient 0.8, Target: Bending strength
+    Gradient 0.8, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 26), ('min_samples_leaf', 2), ('min_samples_split', 10), ('n_estimators', 113)]), Best rmse 10.211715738286046, Best r2 0.5292217803134935
+    Gradient 0.8, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.024877403988222992), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 9.64345847194105, Best r2 0.5814326406449919
+    Gradient 0.8, Subset 1 - SVR: Best Params OrderedDict([('C', 1.9426725769687727), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 8.578836999999918, Best r2 0.6687786951316296
+    Gradient 0.8, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 27), ('min_samples_leaf', 5), ('min_samples_split', 3), ('n_estimators', 144)]), Best rmse 9.564190435393622, Best r2 0.5549361213833063
+    Gradient 0.8, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5)]), Best rmse 9.593041742501425, Best r2 0.5628907026045064
+    Gradient 0.8, Subset 2 - SVR: Best Params OrderedDict([('C', 1.3474085288710134), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 8.344560274514288, Best r2 0.6770021648138296
+    Gradient 0.8, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 21), ('min_samples_leaf', 1), ('min_samples_split', 5), ('n_estimators', 200)]), Best rmse 9.410950625221801, Best r2 0.5948349332205557
+    Gradient 0.8, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.02921348138061479), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 9.091966777588365, Best r2 0.620283573051416
+    Gradient 0.8, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.050792015268964, Best r2 0.6306261924462067
+    Gradient 0.8, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 4), ('min_samples_split', 8), ('n_estimators', 141)]), Best rmse 9.57508694000553, Best r2 0.616535539497194
+    Gradient 0.8, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.1), ('max_depth', 6), ('n_estimators', 50), ('subsample', 0.7415184880743417)]), Best rmse 9.33150543801507, Best r2 0.6432483658057554
+    Gradient 0.8, Subset 4 - SVR: Best Params OrderedDict([('C', 1.410973296186329), ('epsilon', 0.015358897598408718), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.049392851431104, Best r2 0.6468345111660729
+    Gradient 0.8, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 39), ('min_samples_leaf', 5), ('min_samples_split', 10), ('n_estimators', 150)]), Best rmse 9.841853646727929, Best r2 0.6227147147575275
+    Gradient 0.8, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.028179633262989518), ('max_depth', 3), ('n_estimators', 143), ('subsample', 0.5)]), Best rmse 9.584133794181517, Best r2 0.6333115042316412
+    Gradient 0.8, Subset 5 - SVR: Best Params OrderedDict([('C', 0.612277819269507), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.260288453121932, Best r2 0.6493685941434434
+    Starting training for Gradient 0.8, Target: Compression strength paralled to grain
+    Gradient 0.8, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 29), ('min_samples_leaf', 1), ('min_samples_split', 9), ('n_estimators', 63)]), Best rmse 3.8005858610668968, Best r2 0.5950046279654012
+    Gradient 0.8, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7139740031416566), ('learning_rate', 0.07433515228386087), ('max_depth', 4), ('n_estimators', 110), ('subsample', 0.5709009846981848)]), Best rmse 3.6125115052208594, Best r2 0.6427867259413285
+    Gradient 0.8, Subset 1 - SVR: Best Params OrderedDict([('C', 1.159951870267165), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.0679177737601058, Best r2 0.7372008963314302
+    Gradient 0.8, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 41), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 157)]), Best rmse 3.209993521994375, Best r2 0.6993496632390709
+    Gradient 0.8, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8821911945239713), ('learning_rate', 0.07036152301751523), ('max_depth', 9), ('n_estimators', 112), ('subsample', 0.6524259059189972)]), Best rmse 3.0113825732636803, Best r2 0.7321263056338431
+    Gradient 0.8, Subset 2 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.0600958631410067, Best r2 0.730922357928337
+    Gradient 0.8, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 85)]), Best rmse 3.2555602923650797, Best r2 0.6827111437770255
+    Gradient 0.8, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7936112071942274), ('learning_rate', 0.0939976040226744), ('max_depth', 4), ('n_estimators', 78), ('subsample', 0.820201292582698)]), Best rmse 3.262513830068568, Best r2 0.6768217820111765
+    Gradient 0.8, Subset 3 - SVR: Best Params OrderedDict([('C', 0.7519927623049518), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.1427047342032006, Best r2 0.6837117706929248
+    Gradient 0.8, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 33), ('min_samples_leaf', 3), ('min_samples_split', 7), ('n_estimators', 194)]), Best rmse 3.6520900156610594, Best r2 0.6280817793862363
+    Gradient 0.8, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8235955901289889), ('learning_rate', 0.024351224357579773), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.502057790607453, Best r2 0.6588768839548618
+    Gradient 0.8, Subset 4 - SVR: Best Params OrderedDict([('C', 0.36669057370980485), ('epsilon', 0.1934198244800941), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.0550076479372663, Best r2 0.741090932808995
+    Gradient 0.8, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 54)]), Best rmse 3.6663237882871256, Best r2 0.6564208759628823
+    Gradient 0.8, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7437078725354753), ('learning_rate', 0.021625245552799703), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 3.671062925606539, Best r2 0.6554513589538455
+    Gradient 0.8, Subset 5 - SVR: Best Params OrderedDict([('C', 0.28370968150997067), ('epsilon', 0.1990822871707095), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.4354395919476834, Best r2 0.6897007220044491
+    Starting training for Gradient 0.9, Target: Bending resistant modulus of elasticity
+    Gradient 0.9, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 50)]), Best rmse 1435.5292096581811, Best r2 0.5677450027647852
+    Gradient 0.9, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8821911945239713), ('learning_rate', 0.07036152301751523), ('max_depth', 9), ('n_estimators', 112), ('subsample', 0.6524259059189972)]), Best rmse 1417.4549790770604, Best r2 0.5723622665106318
+    Gradient 0.9, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1436.768347424941, Best r2 0.5480599921735958
+    Gradient 0.9, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 33), ('min_samples_leaf', 2), ('min_samples_split', 5), ('n_estimators', 170)]), Best rmse 1265.4246784005786, Best r2 0.6495347075143348
+    Gradient 0.9, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7856218969361086), ('learning_rate', 0.08316512846754275), ('max_depth', 3), ('n_estimators', 191), ('subsample', 0.8080106585355304)]), Best rmse 1201.2174934213267, Best r2 0.6746406165871195
+    Gradient 0.9, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1325.9879751303117, Best r2 0.6156435167070671
+    Gradient 0.9, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 42), ('min_samples_leaf', 2), ('min_samples_split', 2), ('n_estimators', 61)]), Best rmse 1474.0140961116963, Best r2 0.5728935642793702
+    Gradient 0.9, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7303830188801324), ('learning_rate', 0.09536305210978709), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 1445.071183455248, Best r2 0.5983442494442741
+    Gradient 0.9, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1538.1925814960946, Best r2 0.541244981687242
+    Gradient 0.9, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 8), ('min_samples_leaf', 1), ('min_samples_split', 3), ('n_estimators', 71)]), Best rmse 1447.3259530451644, Best r2 0.5287369086924117
+    Gradient 0.9, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.550605600008924), ('learning_rate', 0.035203629317336775), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1379.6342593017005, Best r2 0.5699714563588424
+    Gradient 0.9, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1423.1267602772664, Best r2 0.5470818270831662
+    Gradient 0.9, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 37), ('min_samples_leaf', 1), ('min_samples_split', 6), ('n_estimators', 200)]), Best rmse 1239.4813579549257, Best r2 0.60410932132685
+    Gradient 0.9, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.02722851020162033), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1194.9852561794803, Best r2 0.6263649079590112
+    Gradient 0.9, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 1194.0370698140339, Best r2 0.6344836883295772
+    Starting training for Gradient 0.9, Target: Bending strength
+    Gradient 0.9, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 6), ('min_samples_leaf', 1), ('min_samples_split', 3), ('n_estimators', 200)]), Best rmse 9.940024241503284, Best r2 0.48058758291331627
+    Gradient 0.9, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7206842839600703), ('learning_rate', 0.07362645856647819), ('max_depth', 10), ('n_estimators', 144), ('subsample', 0.5026750850044139)]), Best rmse 9.6608895422113, Best r2 0.5417013808781741
+    Gradient 0.9, Subset 1 - SVR: Best Params OrderedDict([('C', 0.43924768246784407), ('epsilon', 0.11563602185080446), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.953356146906023, Best r2 0.5251177629626145
+    Gradient 0.9, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 8), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 197)]), Best rmse 9.596403957092827, Best r2 0.5410107417792793
+    Gradient 0.9, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.03870475232173792), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 9.708497589192017, Best r2 0.5367865902409931
+    Gradient 0.9, Subset 2 - SVR: Best Params OrderedDict([('C', 1.1783990948457161), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 8.424774548274376, Best r2 0.645421908483388
+    Gradient 0.9, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 46), ('min_samples_leaf', 2), ('min_samples_split', 6), ('n_estimators', 111)]), Best rmse 10.574082819274238, Best r2 0.4951581760166877
+    Gradient 0.9, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.6779330049204607), ('learning_rate', 0.09195352964526833), ('max_depth', 4), ('n_estimators', 115), ('subsample', 0.5751820745469395)]), Best rmse 10.057261998625288, Best r2 0.5671863941919808
+    Gradient 0.9, Subset 3 - SVR: Best Params OrderedDict([('C', 2.5620786217376015), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.203530703242626, Best r2 0.6070607800647221
+    Gradient 0.9, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 43), ('min_samples_leaf', 1), ('min_samples_split', 4), ('n_estimators', 50)]), Best rmse 9.07624693285297, Best r2 0.6227270917784531
+    Gradient 0.9, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.067343115455307), ('max_depth', 3), ('n_estimators', 143), ('subsample', 0.5)]), Best rmse 9.295912744174503, Best r2 0.6129835829810084
+    Gradient 0.9, Subset 4 - SVR: Best Params OrderedDict([('C', 1.0449590556301045), ('epsilon', 0.01), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 8.658461235140443, Best r2 0.6680513796931979
+    Gradient 0.9, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 10), ('min_samples_leaf', 1), ('min_samples_split', 7), ('n_estimators', 59)]), Best rmse 9.176655894418227, Best r2 0.6353673177745217
+    Gradient 0.9, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.06766792803450575), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 9.046767377207654, Best r2 0.652874905728569
+    Gradient 0.9, Subset 5 - SVR: Best Params OrderedDict([('C', 5.55644542461097), ('epsilon', 0.011455687584995627), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 8.933371494350117, Best r2 0.6481241146373092
+    Starting training for Gradient 0.9, Target: Compression strength paralled to grain
+    Gradient 0.9, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 9), ('min_samples_leaf', 1), ('min_samples_split', 7), ('n_estimators', 200)]), Best rmse 3.4429342856149403, Best r2 0.6120030862370338
+    Gradient 0.9, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.024509943390364438), ('max_depth', 3), ('n_estimators', 188), ('subsample', 0.5)]), Best rmse 3.16038339464573, Best r2 0.6707629260465029
+    Gradient 0.9, Subset 1 - SVR: Best Params OrderedDict([('C', 0.1), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.3001461878785614, Best r2 0.6549028010435768
+    Gradient 0.9, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 30), ('min_samples_leaf', 1), ('min_samples_split', 8), ('n_estimators', 80)]), Best rmse 3.3702445383556907, Best r2 0.6476634493832112
+    Gradient 0.9, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.7293337454600066), ('learning_rate', 0.08479374968983114), ('max_depth', 3), ('n_estimators', 123), ('subsample', 0.5)]), Best rmse 3.1447046807002814, Best r2 0.6923326586565426
+    Gradient 0.9, Subset 2 - SVR: Best Params OrderedDict([('C', 0.1), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.106518517773856, Best r2 0.7104151983472388
+    Gradient 0.9, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 9), ('min_samples_leaf', 1), ('min_samples_split', 5), ('n_estimators', 53)]), Best rmse 3.0201931524833094, Best r2 0.7271578164128278
+    Gradient 0.9, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.04400519712410029), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 2.9638076972548966, Best r2 0.7311745822418627
+    Gradient 0.9, Subset 3 - SVR: Best Params OrderedDict([('C', 0.21540210796768894), ('epsilon', 0.01088619000138471), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 2.9529434047191376, Best r2 0.7388274424000889
+    Gradient 0.9, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 3), ('min_samples_split', 2), ('n_estimators', 200)]), Best rmse 3.0884882643478893, Best r2 0.7453952523250509
+    Gradient 0.9, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.02732793664979503), ('max_depth', 3), ('n_estimators', 145), ('subsample', 0.5)]), Best rmse 2.9967142727525227, Best r2 0.756076993116597
+    Gradient 0.9, Subset 4 - SVR: Best Params OrderedDict([('C', 1.3303554303526783), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 2.953158722499759, Best r2 0.7692986379743437
+    Gradient 0.9, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 38), ('min_samples_leaf', 5), ('min_samples_split', 3), ('n_estimators', 78)]), Best rmse 3.1973640188851924, Best r2 0.7105926906669938
+    Gradient 0.9, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.05909556310183544), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.131869653790408, Best r2 0.708948461855335
+    Gradient 0.9, Subset 5 - SVR: Best Params OrderedDict([('C', 0.48994418018394525), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 2.976450635584539, Best r2 0.7346537023160774
+    Starting training for Gradient 1.0, Target: Bending resistant modulus of elasticity
+    Gradient 1.0, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 5), ('min_samples_leaf', 3), ('min_samples_split', 2), ('n_estimators', 68)]), Best rmse 1327.4013358957393, Best r2 0.5910534209074648
+    Gradient 1.0, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.5), ('learning_rate', 0.031351848157137034), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1273.5048126322304, Best r2 0.6208431687259014
+    Gradient 1.0, Subset 1 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.6359458532338, Best r2 0.6040620187021858
+    Gradient 1.0, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 41), ('min_samples_leaf', 3), ('min_samples_split', 6), ('n_estimators', 157)]), Best rmse 1347.1214549132903, Best r2 0.578603362843485
+    Gradient 1.0, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.0411198170623466), ('max_depth', 10), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1287.6287739829345, Best r2 0.6092047416700551
+    Gradient 1.0, Subset 2 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.63583110506, Best r2 0.6040620099744122
+    Gradient 1.0, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 28), ('min_samples_leaf', 3), ('min_samples_split', 5), ('n_estimators', 190)]), Best rmse 1343.4614112272425, Best r2 0.5814511704293064
+    Gradient 1.0, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.04903251730679932), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1246.7080038582008, Best r2 0.6331296727147431
+    Gradient 1.0, Subset 3 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.6360263621903, Best r2 0.6040620497606628
+    Gradient 1.0, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 47), ('min_samples_leaf', 1), ('min_samples_split', 4), ('n_estimators', 58)]), Best rmse 1338.7852635148238, Best r2 0.5826013392576943
+    Gradient 1.0, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.049151776560023404), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1259.8380882030326, Best r2 0.62576695897949
+    Gradient 1.0, Subset 4 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.635931358213, Best r2 0.6040619879935217
+    Gradient 1.0, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 42), ('min_samples_leaf', 3), ('min_samples_split', 7), ('n_estimators', 140)]), Best rmse 1334.810803572382, Best r2 0.5867829592113635
+    Gradient 1.0, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.05523629662292544), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 1250.3508955953032, Best r2 0.6335857917373986
+    Gradient 1.0, Subset 5 - SVR: Best Params OrderedDict([('C', 10.0), ('epsilon', 0.2), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 1305.6360249970262, Best r2 0.604062051686079
+    Starting training for Gradient 1.0, Target: Bending strength
+    Gradient 1.0, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 10), ('n_estimators', 200)]), Best rmse 10.157380692344677, Best r2 0.5081352633485333
+    Gradient 1.0, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.061394855501668726), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 9.929211967666285, Best r2 0.5315152718409045
+    Gradient 1.0, Subset 1 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.781800755372371, Best r2 0.5621340338174105
+    Gradient 1.0, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 33), ('min_samples_leaf', 2), ('min_samples_split', 7), ('n_estimators', 191)]), Best rmse 10.294066923884783, Best r2 0.49809229041095104
+    Gradient 1.0, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.8190860916215267), ('learning_rate', 0.029789794762718744), ('max_depth', 4), ('n_estimators', 151), ('subsample', 0.7556417877004438)]), Best rmse 9.865277490282256, Best r2 0.5299291325169063
+    Gradient 1.0, Subset 2 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.78183440345428, Best r2 0.562131706388356
+    Gradient 1.0, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 15), ('min_samples_leaf', 2), ('min_samples_split', 6), ('n_estimators', 121)]), Best rmse 10.214245396405039, Best r2 0.5044941097586716
+    Gradient 1.0, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.025604904355380632), ('max_depth', 3), ('n_estimators', 181), ('subsample', 0.8878776026020312)]), Best rmse 9.874751905198142, Best r2 0.5321223878019044
+    Gradient 1.0, Subset 3 - SVR: Best Params OrderedDict([('C', 0.16903378558163304), ('epsilon', 0.0829269876312876), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.523711778571874, Best r2 0.5814410591830061
+    Gradient 1.0, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 48), ('min_samples_leaf', 1), ('min_samples_split', 6), ('n_estimators', 52)]), Best rmse 10.063555559505176, Best r2 0.5187228368661325
+    Gradient 1.0, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.021249932644279296), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.9)]), Best rmse 10.010848190113371, Best r2 0.519658343087773
+    Gradient 1.0, Subset 4 - SVR: Best Params OrderedDict([('C', 0.13594004182195796), ('epsilon', 0.1653877037361128), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.781807354598968, Best r2 0.562133353839372
+    Gradient 1.0, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 13), ('min_samples_leaf', 2), ('min_samples_split', 8), ('n_estimators', 89)]), Best rmse 10.219706831301725, Best r2 0.5066959478443788
+    Gradient 1.0, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.07011270833833098), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.788778877057026)]), Best rmse 9.952406841648449, Best r2 0.5183447190753723
+    Gradient 1.0, Subset 5 - SVR: Best Params OrderedDict([('C', 0.1690217463645668), ('epsilon', 0.0829269871706298), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 9.523765155774313, Best r2 0.5814367016554705
+    Starting training for Gradient 1.0, Target: Compression strength paralled to grain
+    Gradient 1.0, Subset 1 - Random Forest: Best Params OrderedDict([('max_depth', 25), ('min_samples_leaf', 5), ('min_samples_split', 3), ('n_estimators', 115)]), Best rmse 3.3503838808848605, Best r2 0.6459857811969985
+    Gradient 1.0, Subset 1 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.09672569547984006), ('max_depth', 3), ('n_estimators', 50), ('subsample', 0.5033195708955905)]), Best rmse 3.2159402214796438, Best r2 0.6741415191845487
+    Gradient 1.0, Subset 1 - SVR: Best Params OrderedDict([('C', 0.332865112291609), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.0748630843772284, Best r2 0.7053205939576117
+    Gradient 1.0, Subset 2 - Random Forest: Best Params OrderedDict([('max_depth', 49), ('min_samples_leaf', 2), ('min_samples_split', 8), ('n_estimators', 195)]), Best rmse 3.3656308071883387, Best r2 0.6477026348573857
+    Gradient 1.0, Subset 2 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.03179302109304673), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.233584193653415, Best r2 0.6710846236504502
+    Gradient 1.0, Subset 2 - SVR: Best Params OrderedDict([('C', 0.1582815798982181), ('epsilon', 0.19746211724061788), ('gamma', 'scale'), ('kernel', 'linear')]), Best rmse 3.0913853049130835, Best r2 0.7046974151461749
+    Gradient 1.0, Subset 3 - Random Forest: Best Params OrderedDict([('max_depth', 31), ('min_samples_leaf', 3), ('min_samples_split', 10), ('n_estimators', 59)]), Best rmse 3.3194648602996844, Best r2 0.654220640426726
+    Gradient 1.0, Subset 3 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.08941835335109963), ('max_depth', 3), ('n_estimators', 117), ('subsample', 0.5)]), Best rmse 3.2505123283525763, Best r2 0.6679258739172751
+    Gradient 1.0, Subset 3 - SVR: Best Params OrderedDict([('C', 0.4352663828190455), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.068831774711133, Best r2 0.7046725580034696
+    Gradient 1.0, Subset 4 - Random Forest: Best Params OrderedDict([('max_depth', 38), ('min_samples_leaf', 5), ('min_samples_split', 3), ('n_estimators', 78)]), Best rmse 3.3269299309044946, Best r2 0.6584064094876505
+    Gradient 1.0, Subset 4 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.2437333552659724, Best r2 0.6663551961883956
+    Gradient 1.0, Subset 4 - SVR: Best Params OrderedDict([('C', 0.3338180021450319), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.0749217558569604, Best r2 0.7053065034813086
+    Gradient 1.0, Subset 5 - Random Forest: Best Params OrderedDict([('max_depth', 13), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 145)]), Best rmse 3.304157494513992, Best r2 0.6558092903221693
+    Gradient 1.0, Subset 5 - XGBoost: Best Params OrderedDict([('colsample_bytree', 0.9), ('learning_rate', 0.02328127330110644), ('max_depth', 3), ('n_estimators', 200), ('subsample', 0.5)]), Best rmse 3.2884594992516107, Best r2 0.6647405992535995
+    Gradient 1.0, Subset 5 - SVR: Best Params OrderedDict([('C', 0.3258690191702446), ('epsilon', 0.2), ('gamma', 'auto'), ('kernel', 'linear')]), Best rmse 3.075374909151333, Best r2 0.7052521103326196
+    
+
+
+    ---------------------------------------------------------------------------
+
+    FileNotFoundError                         Traceback (most recent call last)
+
+    Cell In[33], line 169
+        166 X_test_scaled = StandardScaler().fit_transform(X_test)
+        168 # 加载对应的模型
+    --> 169 rf_model = joblib.load(os.path.join(model_save_dir, f'rf_model_gradient_{int(gradient * 100)}_target_{target_column}.pkl'))
+        170 xgb_model = joblib.load(os.path.join(model_save_dir, f'xgb_model_gradient_{int(gradient * 100)}_target_{target_column}.pkl'))
+        171 svr_model = joblib.load(os.path.join(model_save_dir, f'svr_model_gradient_{int(gradient * 100)}_target_{target_column}.pkl'))
+    
+
+    File F:\anaconda\envs\fir\lib\site-packages\joblib\numpy_pickle.py:650, in load(filename, mmap_mode)
+        648         obj = _unpickle(fobj)
+        649 else:
+    --> 650     with open(filename, 'rb') as f:
+        651         with _read_fileobject(f, filename, mmap_mode) as fobj:
+        652             if isinstance(fobj, str):
+        653                 # if the returned file object is a string, this means we
+        654                 # try to load a pickle file generated with an version of
+        655                 # Joblib so we load it with joblib compatibility function.
+    
+
+    FileNotFoundError: [Errno 2] No such file or directory: './saved_models\\rf_model_gradient_10_target_Bending resistant modulus of elasticity.pkl'
+
+
+
+    <Figure size 1500x1500 with 0 Axes>
+
+
+
+```python
+import warnings
+import matplotlib.pyplot as plt
+import joblib
+import os
+import json
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_squared_error
+
+warnings.filterwarnings("ignore", category=FutureWarning, module="sklearn.metrics._regression")
+
+# 绘图设置
+plt.figure(figsize=(15, len(gradients) * 12))  # 动态调整画布高度，根据梯度的数量设置
+
+# 计算总共需要多少个子图
+num_plots = len(gradients) * len(target_columns) * 3  # 每个梯度和目标列有3个模型
+
+# 循环遍历每个梯度和目标列
+plot_idx = 1
+for gradient in gradients:
+    for target_column in target_columns:
+        # 预处理数据
+        X_test, y_test = preprocess_data(test_data, target_column)
+        X_test_scaled = StandardScaler().fit_transform(X_test)
+
+        # 加载对应的模型
+        rf_model = joblib.load(os.path.join(model_save_dir, f'rf_model_gradient_{gradient}_target_{target_column}.pkl'))
+        xgb_model = joblib.load(os.path.join(model_save_dir, f'xgb_model_gradient_{gradient}_target_{target_column}.pkl'))
+        svr_model = joblib.load(os.path.join(model_save_dir, f'svr_model_gradient_{gradient}_target_{target_column}.pkl'))
+
+        # 进行预测
+        rf_predictions = rf_model.predict(X_test_scaled)
+        xgb_predictions = xgb_model.predict(X_test_scaled)
+        svr_predictions = svr_model.predict(X_test_scaled)
+
+        # 计算 RMSE
+        rf_rmse = mean_squared_error(y_test, rf_predictions, squared=False)
+        xgb_rmse = mean_squared_error(y_test, xgb_predictions, squared=False)
+        svr_rmse = mean_squared_error(y_test, svr_predictions, squared=False)
+
+        # 绘制拟合效果图
+        # 每个梯度和目标列的3个模型放在同一行
+        # Random Forest: 真实值 vs 预测值
+        plt.subplot(num_plots // 3, 3, plot_idx)  # 确保每行有3个子图
+        plt.scatter(y_test, rf_predictions, color='blue')
+        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
+        plt.title(f'RF: Gradient {gradient}, Target {target_column}', fontsize=10)
+        plt.xlabel('Actual')
+        plt.ylabel('Predicted')
+
+        # XGBoost: 真实值 vs 预测值
+        plt.subplot(num_plots // 3, 3, plot_idx + 1)  # 确保每行有3个子图
+        plt.scatter(y_test, xgb_predictions, color='green')
+        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
+        plt.title(f'XGBoost: Gradient {gradient}, Target {target_column}', fontsize=10)
+        plt.xlabel('Actual')
+        plt.ylabel('Predicted')
+
+        # SVR: 真实值 vs 预测值
+        plt.subplot(num_plots // 3, 3, plot_idx + 2)  # 确保每行有3个子图
+        plt.scatter(y_test, svr_predictions, color='orange')
+        plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
+        plt.title(f'SVR: Gradient {gradient}, Target {target_column}', fontsize=10)
+        plt.xlabel('Actual')
+        plt.ylabel('Predicted')
+
+        plot_idx += 3  # 每次递增3，表示3个子图
+
+# 调整布局
+plt.tight_layout()
+plt.show()
+
+
+# 保存结果到 JSON
+output_file = "results_all_gradients2.json"
+with open(output_file, mode='w') as file:
+    json.dump(results, file, indent=4)
+
+print(f"All results saved to {output_file}")
+
+```
+
+
+    
+![png](output_28_0.png)
+    
+
+
+    All results saved to results_all_gradients2.json
     
 
 
@@ -1673,7 +2484,7 @@ with open("results_all_gradients.json", mode='r') as file:
 # 子集对比图
 plt.style.use("ggplot")  # 替代为一个可用的样式
 
-# plt.style.use("seaborn-darkgrid")
+plt.style.use("seaborn-darkgrid")
 for gradient, metrics in results.items():
     subsets = np.arange(1, 6)
     plt.figure(figsize=(12, 6))
@@ -1754,7 +2565,7 @@ for gradient, metrics in results.items():
 
 
     
-![png](output_28_1.png)
+![png](output_30_1.png)
     
 
 
