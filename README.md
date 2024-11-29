@@ -2193,15 +2193,24 @@ for gradient in gradients:
         xgb_predictions_all = np.array(xgb_predictions_all).T
         svr_predictions_all = np.array(svr_predictions_all).T
 
-        # 计算 RMSE 和 R²
-        rf_rmse = mean_squared_error(y_test, rf_predictions_all.mean(axis=1), squared=False)
-        xgb_rmse = mean_squared_error(y_test, xgb_predictions_all.mean(axis=1), squared=False)
-        svr_rmse = mean_squared_error(y_test, svr_predictions_all.mean(axis=1), squared=False)
+        # 计算每个模型的 RMSE 和 R²
+        rf_rmse_list = [mean_squared_error(y_test, rf_predictions_all[:, i], squared=False) for i in range(5)]
+        xgb_rmse_list = [mean_squared_error(y_test, xgb_predictions_all[:, i], squared=False) for i in range(5)]
+        svr_rmse_list = [mean_squared_error(y_test, svr_predictions_all[:, i], squared=False) for i in range(5)]
 
-        rf_r2 = r2_score(y_test, rf_predictions_all.mean(axis=1))
-        xgb_r2 = r2_score(y_test, xgb_predictions_all.mean(axis=1))
-        svr_r2 = r2_score(y_test, svr_predictions_all.mean(axis=1))
+        rf_r2_list = [r2_score(y_test, rf_predictions_all[:, i]) for i in range(5)]
+        xgb_r2_list = [r2_score(y_test, xgb_predictions_all[:, i]) for i in range(5)]
+        svr_r2_list = [r2_score(y_test, svr_predictions_all[:, i]) for i in range(5)]
 
+        # 计算平均 RMSE 和 R²
+        rf_rmse = np.mean(rf_rmse_list)
+        xgb_rmse = np.mean(xgb_rmse_list)
+        svr_rmse = np.mean(svr_rmse_list)
+
+        rf_r2 = np.mean(rf_r2_list)
+        xgb_r2 = np.mean(xgb_r2_list)
+        svr_r2 = np.mean(svr_r2_list)
+        
         # 将结果存储到结果列表
         results.append({
             "gradient": gradient,
@@ -2244,7 +2253,9 @@ for gradient in gradients:
         plt.title(f'SVR: Gradient {gradient}, Target {target_column}\nRMSE: {svr_rmse:.2f}, R²: {svr_r2:.2f}', fontsize=10)
         plt.xlabel('Actual')
         plt.ylabel('Predicted')
-        plt.legend()
+        # 在梯度为100时不显示图例
+        if gradient != 1.0:
+            plt.legend()
 
         plot_idx += 3  # 每次递增3，表示3个子图
 
@@ -2363,7 +2374,7 @@ plt.show()
     
 
 
-# 下面代码是备份代码
+# 下面代码是备份代码 !之后代码都无效！
 
 
 ```python
